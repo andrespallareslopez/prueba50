@@ -8,7 +8,7 @@ using System.Linq;
 
 namespace ADADB.Entities
 {
-    //**data source=localhost;initial catalog=ADADB;persist security info=True;user id=escritura;password=fourier;multipleactiveresultsets=True;App=EntityFramework
+    //**data source=localhost;initial catalog=ADADB;persist security info=false;Integrated Security=true;multipleactiveresultsets=True;App=EntityFramework
 
                    
        // AGRUPACIONES_BAJAS

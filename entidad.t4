@@ -82,7 +82,7 @@ namespace <#= server.ConnectionContext.DatabaseName #>.Entities
       bool isKey=false;
 
 
-
+      return true;
 
   }
 
