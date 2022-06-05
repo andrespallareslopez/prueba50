@@ -20,6 +20,7 @@
 <#@ import namespace="Microsoft.SqlServer.Management.Smo" #>
 <#@ import namespace="Microsoft.SqlServer.Management.Common" #>
 <#@ include file="entidad.t4" #>
+<#@ include file="EntidadUml.t4" #>
 <#@ include file="MultipleOutputHelper.ttinclude" #> 
 <#@ output extension="txt" #>
  <# 

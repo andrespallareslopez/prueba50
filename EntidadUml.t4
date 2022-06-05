@@ -22,7 +22,7 @@
 
 
 <#+ 
-void GenerarMensaje()
+void GenerarMensajeUml()
 {
 string appConfig = this.Host.ResolvePath("App.config");
 if(!File.Exists(appConfig))
@@ -60,7 +60,7 @@ namespace <#= server.ConnectionContext.DatabaseName #>.Entities
           
           <#+ foreach(Column columna in tabla.Columns){ #>
              
-             // <#= columna.Name #> ( <#= columna.InPrimaryKey   #> )  //tipo: <#= MapField(columna.DataType.ToString()) #>
+             // <#= columna.Name #> ( <#= columna.InPrimaryKey   #> )  //tipo: <#= MapFieldUml(columna.DataType.ToString()) #>
 
           <#+ } #>
 
@@ -77,7 +77,7 @@ namespace <#= server.ConnectionContext.DatabaseName #>.Entities
 
 <#+ 
 
-  private bool IsPrimaryKey(Table tabla,string campo){
+  private bool IsPrimaryKeyUml(Table tabla,string campo){
 
       bool isKey=false;
 
@@ -85,7 +85,7 @@ namespace <#= server.ConnectionContext.DatabaseName #>.Entities
       return true;
 
   }
-  private string MapField(string typeField){
+  private string MapFieldUml(string typeField){
       string tField=typeField;
 
       switch (tField)
