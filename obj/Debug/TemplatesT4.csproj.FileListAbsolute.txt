@@ -1,0 +1,7 @@
+D:\App\prueba50\TemplatesT4\bin\Debug\TemplatesT4.exe.config
+D:\App\prueba50\TemplatesT4\bin\Debug\TemplatesT4.exe
+D:\App\prueba50\TemplatesT4\bin\Debug\TemplatesT4.pdb
+D:\App\prueba50\TemplatesT4\obj\Debug\TemplatesT4.csproj.AssemblyReference.cache
+D:\App\prueba50\TemplatesT4\obj\Debug\TemplatesT4.csproj.CoreCompileInputs.cache
+D:\App\prueba50\TemplatesT4\obj\Debug\TemplatesT4.exe
+D:\App\prueba50\TemplatesT4\obj\Debug\TemplatesT4.pdb
