@@ -60,7 +60,7 @@ namespace <#= server.ConnectionContext.DatabaseName #>.Entities
           
           <#+ foreach(Column columna in tabla.Columns){ #>
              
-             // <#= columna.Name #> ( <#= columna.InPrimaryKey   #> )
+             // <#= columna.Name #> ( <#= columna.InPrimaryKey   #> )  //tipo: <#= columna.DataType #>
 
           <#+ } #>
 

@@ -14,28 +14,28 @@ namespace ADADB.Entities
        // AGRUPACIONES_BAJAS
           
                        
-             // ID_ACTIVO_SAREB ( False )
+             // ID_ACTIVO_SAREB ( False )  //tipo: decimal
 
                        
-             // CODIGO_AGRUPACION ( False )
+             // CODIGO_AGRUPACION ( False )  //tipo: varchar
 
                        
-             // TIPO_AGRUPACION ( False )
+             // TIPO_AGRUPACION ( False )  //tipo: varchar
 
                        
-             // USO_AGRUPACION ( False )
+             // USO_AGRUPACION ( False )  //tipo: nvarchar
 
                        
-             // TIPO_ACT_AGRUPACION ( False )
+             // TIPO_ACT_AGRUPACION ( False )  //tipo: varchar
 
                        
-             // RAIZ_COD ( False )
+             // RAIZ_COD ( False )  //tipo: varchar
 
                        
-             // CLAVE_AGRUPADORA ( False )
+             // CLAVE_AGRUPADORA ( False )  //tipo: nvarchar
 
                        
-             // TS_ALTA ( False )
+             // TS_ALTA ( False )  //tipo: date
 
           
            
@@ -43,94 +43,94 @@ namespace ADADB.Entities
        // AGRUPACIONES_DM
           
                        
-             // ID_ACTIVO_SAREB ( False )
+             // ID_ACTIVO_SAREB ( False )  //tipo: decimal
 
                        
-             // CODIGO_AGRUPACION ( False )
+             // CODIGO_AGRUPACION ( False )  //tipo: varchar
 
                        
-             // TIPO_AGRUPACION ( False )
+             // TIPO_AGRUPACION ( False )  //tipo: varchar
 
                        
-             // USO_AGRUPACION ( False )
+             // USO_AGRUPACION ( False )  //tipo: nvarchar
 
                        
-             // TIPO_ACT_AGRUPACION ( False )
+             // TIPO_ACT_AGRUPACION ( False )  //tipo: varchar
 
                        
-             // RAIZ_COD ( False )
+             // RAIZ_COD ( False )  //tipo: varchar
 
                        
-             // ID_PROMCN_SAREB ( False )
+             // ID_PROMCN_SAREB ( False )  //tipo: nvarchar
 
                        
-             // TIPO_SUELO ( False )
+             // TIPO_SUELO ( False )  //tipo: varchar
 
                        
-             // CLAVE_AGRUPADORA ( False )
+             // CLAVE_AGRUPADORA ( False )  //tipo: nvarchar
 
                        
-             // ID_SECTOR ( False )
+             // ID_SECTOR ( False )  //tipo: nvarchar
 
                        
-             // IND_STATUS ( False )
+             // IND_STATUS ( False )  //tipo: nvarchar
 
                        
-             // TIPO_ACTIVO ( False )
+             // TIPO_ACTIVO ( False )  //tipo: varchar
 
                        
-             // ESTADO_GEN ( False )
+             // ESTADO_GEN ( False )  //tipo: nvarchar
 
                        
-             // SUBTIPO_UNIFICADO ( False )
+             // SUBTIPO_UNIFICADO ( False )  //tipo: nvarchar
 
                        
-             // SUBTIPO_DM ( False )
+             // SUBTIPO_DM ( False )  //tipo: nvarchar
 
                        
-             // USO_UNIFICADO ( False )
+             // USO_UNIFICADO ( False )  //tipo: nvarchar
 
                        
-             // USO_DOM_DM ( False )
+             // USO_DOM_DM ( False )  //tipo: nvarchar
 
                        
-             // MUNICIPIO ( False )
+             // MUNICIPIO ( False )  //tipo: nvarchar
 
                        
-             // PROVINCIA ( False )
+             // PROVINCIA ( False )  //tipo: nvarchar
 
                        
-             // FINCA_REGISTRAL ( False )
+             // FINCA_REGISTRAL ( False )  //tipo: nvarchar
 
                        
-             // IDUFIR ( False )
+             // IDUFIR ( False )  //tipo: nvarchar
 
                        
-             // REF_CATAST ( False )
+             // REF_CATAST ( False )  //tipo: nvarchar
 
                        
-             // DES_SERVICER ( False )
+             // DES_SERVICER ( False )  //tipo: nvarchar
 
                        
-             // TERRITORIAL ( False )
+             // TERRITORIAL ( False )  //tipo: nvarchar
 
                        
-             // VNC ( False )
+             // VNC ( False )  //tipo: decimal
 
                        
-             // FCH_DATOS ( False )
+             // FCH_DATOS ( False )  //tipo: date
 
                        
-             // TS_ALTA ( False )
+             // TS_ALTA ( False )  //tipo: date
 
                        
-             // NUM_SUBCODIGO ( False )
+             // NUM_SUBCODIGO ( False )  //tipo: int
 
                        
-             // ORIGEN ( False )
+             // ORIGEN ( False )  //tipo: varchar
 
                        
-             // ID_JUICIO_EXPERTO ( False )
+             // ID_JUICIO_EXPERTO ( False )  //tipo: int
 
           
            
@@ -138,34 +138,34 @@ namespace ADADB.Entities
        // AGRUPACIONES_RELA
           
                        
-             // ID_AGRP_RELA ( False )
+             // ID_AGRP_RELA ( False )  //tipo: decimal
 
                        
-             // ID_ACTIVO_SAREB ( False )
+             // ID_ACTIVO_SAREB ( False )  //tipo: decimal
 
                        
-             // CODIGO_AGRUPACION ( False )
+             // CODIGO_AGRUPACION ( False )  //tipo: varchar
 
                        
-             // TIPO_AGRUPACION ( False )
+             // TIPO_AGRUPACION ( False )  //tipo: varchar
 
                        
-             // USO_AGRUPACION ( False )
+             // USO_AGRUPACION ( False )  //tipo: nvarchar
 
                        
-             // TIPO_ACT_AGRUPACION ( False )
+             // TIPO_ACT_AGRUPACION ( False )  //tipo: varchar
 
                        
-             // RAIZ_COD ( False )
+             // RAIZ_COD ( False )  //tipo: varchar
 
                        
-             // CLAVE_AGRUPADORA ( False )
+             // CLAVE_AGRUPADORA ( False )  //tipo: nvarchar
 
                        
-             // ID_JUICIO_EXPERTO ( False )
+             // ID_JUICIO_EXPERTO ( False )  //tipo: int
 
                        
-             // FECHA_AUDIT ( False )
+             // FECHA_AUDIT ( False )  //tipo: datetime
 
           
            
@@ -173,43 +173,43 @@ namespace ADADB.Entities
        // PV_JUICIO_EXPERTO
           
                        
-             // ID_ACTIVO_SAREB ( False )
+             // ID_ACTIVO_SAREB ( False )  //tipo: decimal
 
                        
-             // CODIGO_AGRUPACION ( False )
+             // CODIGO_AGRUPACION ( False )  //tipo: varchar
 
                        
-             // TIPO_AGRUPACION ( False )
+             // TIPO_AGRUPACION ( False )  //tipo: varchar
 
                        
-             // USO_AGRUPACION ( False )
+             // USO_AGRUPACION ( False )  //tipo: nvarchar
 
                        
-             // TIPO_ACT_AGRUPACION ( False )
+             // TIPO_ACT_AGRUPACION ( False )  //tipo: varchar
 
                        
-             // RAIZ_COD ( False )
+             // RAIZ_COD ( False )  //tipo: varchar
 
                        
-             // CLAVE_AGRUPADORA ( False )
+             // CLAVE_AGRUPADORA ( False )  //tipo: nvarchar
 
                        
-             // NUM_SUBCODIGO ( False )
+             // NUM_SUBCODIGO ( False )  //tipo: nvarchar
 
                        
-             // ID_JUICIO_EXPERTO ( True )
+             // ID_JUICIO_EXPERTO ( True )  //tipo: int
 
                        
-             // FECHA_AUDIT ( False )
+             // FECHA_AUDIT ( False )  //tipo: datetime
 
                        
-             // ACCION ( False )
+             // ACCION ( False )  //tipo: nvarchar
 
                        
-             // IND_STATUS ( False )
+             // IND_STATUS ( False )  //tipo: nvarchar
 
                        
-             // IND_PROCESADO ( False )
+             // IND_PROCESADO ( False )  //tipo: bit
 
           
            
@@ -217,28 +217,28 @@ namespace ADADB.Entities
        // PV_JUICIO_EXPERTO_PRO
           
                        
-             // ID_ACTIVO_SAREB ( False )
+             // ID_ACTIVO_SAREB ( False )  //tipo: decimal
 
                        
-             // CODIGO_AGRUPACION ( False )
+             // CODIGO_AGRUPACION ( False )  //tipo: varchar
 
                        
-             // TIPO_AGRUPACION ( False )
+             // TIPO_AGRUPACION ( False )  //tipo: varchar
 
                        
-             // USO_AGRUPACION ( False )
+             // USO_AGRUPACION ( False )  //tipo: nvarchar
 
                        
-             // TIPO_ACT_AGRUPACION ( False )
+             // TIPO_ACT_AGRUPACION ( False )  //tipo: varchar
 
                        
-             // RAIZ_COD ( False )
+             // RAIZ_COD ( False )  //tipo: varchar
 
                        
-             // NUM_SUBCODIGO ( False )
+             // NUM_SUBCODIGO ( False )  //tipo: nvarchar
 
                        
-             // CLAVE_AGRUPADORA ( False )
+             // CLAVE_AGRUPADORA ( False )  //tipo: nvarchar
 
           
            
@@ -246,10 +246,10 @@ namespace ADADB.Entities
        // TBL_CARGAS_DM
           
                        
-             // COD_ORIGEN_INFO ( True )
+             // COD_ORIGEN_INFO ( True )  //tipo: nvarchar
 
                        
-             // FCH_DATOS ( False )
+             // FCH_DATOS ( False )  //tipo: date
 
           
            
@@ -257,34 +257,34 @@ namespace ADADB.Entities
        // asignacionAAFF
           
                        
-             // IdActivo ( True )
+             // IdActivo ( True )  //tipo: int
 
                        
-             // FcInicio ( True )
+             // FcInicio ( True )  //tipo: date
 
                        
-             // FcFin ( False )
+             // FcFin ( False )  //tipo: date
 
                        
-             // IdServicerComercial ( False )
+             // IdServicerComercial ( False )  //tipo: int
 
                        
-             // IdModeloGestion ( False )
+             // IdModeloGestion ( False )  //tipo: int
 
                        
-             // IdPerimetroOperativo ( False )
+             // IdPerimetroOperativo ( False )  //tipo: int
 
                        
-             // IdTerritorial ( False )
+             // IdTerritorial ( False )  //tipo: int
 
                        
-             // CodSituacion ( False )
+             // CodSituacion ( False )  //tipo: nvarchar
 
                        
-             // CodUsuarioAudit ( False )
+             // CodUsuarioAudit ( False )  //tipo: nvarchar
 
                        
-             // FechaAudit ( False )
+             // FechaAudit ( False )  //tipo: date
 
           
            
@@ -292,34 +292,34 @@ namespace ADADB.Entities
        // asignacionAAII
           
                        
-             // IdActivo ( True )
+             // IdActivo ( True )  //tipo: int
 
                        
-             // FcInicio ( True )
+             // FcInicio ( True )  //tipo: date
 
                        
-             // FcFin ( False )
+             // FcFin ( False )  //tipo: date
 
                        
-             // IdServicerComercial ( False )
+             // IdServicerComercial ( False )  //tipo: int
 
                        
-             // IdModeloGestion ( False )
+             // IdModeloGestion ( False )  //tipo: int
 
                        
-             // IdPerimetroOperativo ( False )
+             // IdPerimetroOperativo ( False )  //tipo: int
 
                        
-             // IdTerritorial ( False )
+             // IdTerritorial ( False )  //tipo: int
 
                        
-             // CodSituacion ( False )
+             // CodSituacion ( False )  //tipo: nvarchar
 
                        
-             // CodUsuarioAudit ( False )
+             // CodUsuarioAudit ( False )  //tipo: nvarchar
 
                        
-             // FechaAudit ( False )
+             // FechaAudit ( False )  //tipo: date
 
           
            
@@ -327,34 +327,34 @@ namespace ADADB.Entities
        // HIST_AsignacionAAFF
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // IdActivo ( False )
+             // IdActivo ( False )  //tipo: int
 
                        
-             // FechaInicio ( False )
+             // FechaInicio ( False )  //tipo: date
 
                        
-             // FechaFin ( False )
+             // FechaFin ( False )  //tipo: date
 
                        
-             // IdServicerComercial ( False )
+             // IdServicerComercial ( False )  //tipo: int
 
                        
-             // IdModeloGestion ( False )
+             // IdModeloGestion ( False )  //tipo: int
 
                        
-             // IdPerimetroOperativo ( False )
+             // IdPerimetroOperativo ( False )  //tipo: int
 
                        
-             // IdTerritorial ( False )
+             // IdTerritorial ( False )  //tipo: int
 
                        
-             // CodUsuarioAudit ( False )
+             // CodUsuarioAudit ( False )  //tipo: nvarchar
 
                        
-             // FechaHoraAudit ( False )
+             // FechaHoraAudit ( False )  //tipo: datetime
 
           
            
@@ -362,34 +362,34 @@ namespace ADADB.Entities
        // HIST_AsignacionAAII
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // IdActivo ( False )
+             // IdActivo ( False )  //tipo: int
 
                        
-             // FechaInicio ( False )
+             // FechaInicio ( False )  //tipo: date
 
                        
-             // FechaFin ( False )
+             // FechaFin ( False )  //tipo: date
 
                        
-             // IdServicerComercial ( False )
+             // IdServicerComercial ( False )  //tipo: int
 
                        
-             // IdModeloGestion ( False )
+             // IdModeloGestion ( False )  //tipo: int
 
                        
-             // IdPerimetroOperativo ( False )
+             // IdPerimetroOperativo ( False )  //tipo: int
 
                        
-             // IdTerritorial ( False )
+             // IdTerritorial ( False )  //tipo: int
 
                        
-             // CodUsuarioAudit ( False )
+             // CodUsuarioAudit ( False )  //tipo: nvarchar
 
                        
-             // FechaHoraAudit ( False )
+             // FechaHoraAudit ( False )  //tipo: datetime
 
           
            
@@ -397,37 +397,37 @@ namespace ADADB.Entities
        // SolCambio
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: decimal
 
                        
-             // TipoActivo ( False )
+             // TipoActivo ( False )  //tipo: varchar
 
                        
-             // IdModeloGestion ( False )
+             // IdModeloGestion ( False )  //tipo: int
 
                        
-             // IdServicerComercial ( False )
+             // IdServicerComercial ( False )  //tipo: int
 
                        
-             // IdPerimetroOper ( False )
+             // IdPerimetroOper ( False )  //tipo: int
 
                        
-             // IdTerritorial ( False )
+             // IdTerritorial ( False )  //tipo: int
 
                        
-             // FcInicio ( False )
+             // FcInicio ( False )  //tipo: datetime
 
                        
-             // FcIniProceso ( False )
+             // FcIniProceso ( False )  //tipo: datetime
 
                        
-             // FcFinProceso ( False )
+             // FcFinProceso ( False )  //tipo: datetime
 
                        
-             // IdValidacion ( False )
+             // IdValidacion ( False )  //tipo: nvarchar
 
                        
-             // UserAudit ( False )
+             // UserAudit ( False )  //tipo: nvarchar
 
           
            
@@ -435,16 +435,16 @@ namespace ADADB.Entities
        // Validacion
           
                        
-             // IdPeticionCambio ( True )
+             // IdPeticionCambio ( True )  //tipo: int
 
                        
-             // IdActivo ( True )
+             // IdActivo ( True )  //tipo: decimal
 
                        
-             // IdValidacion ( False )
+             // IdValidacion ( False )  //tipo: decimal
 
                        
-             // FcAudit ( False )
+             // FcAudit ( False )  //tipo: datetime
 
           
            
@@ -453,25 +453,25 @@ namespace ADADB.Entities
        // EstrategiaAACC
           
                        
-             // IdActivo ( True )
+             // IdActivo ( True )  //tipo: int
 
                        
-             // FcInicio ( True )
+             // FcInicio ( True )  //tipo: date
 
                        
-             // FcFin ( False )
+             // FcFin ( False )  //tipo: date
 
                        
-             // IdEstrategia ( False )
+             // IdEstrategia ( False )  //tipo: int
 
                        
-             // CodSituacion ( False )
+             // CodSituacion ( False )  //tipo: nvarchar
 
                        
-             // CodUsuarioAudit ( False )
+             // CodUsuarioAudit ( False )  //tipo: nvarchar
 
                        
-             // FechaAudit ( False )
+             // FechaAudit ( False )  //tipo: date
 
           
            
@@ -479,25 +479,25 @@ namespace ADADB.Entities
        // EstrategiaAAFF
           
                        
-             // IdActivo ( True )
+             // IdActivo ( True )  //tipo: int
 
                        
-             // FcInicio ( True )
+             // FcInicio ( True )  //tipo: date
 
                        
-             // FcFin ( False )
+             // FcFin ( False )  //tipo: date
 
                        
-             // IdEstrategia ( False )
+             // IdEstrategia ( False )  //tipo: int
 
                        
-             // CodSituacion ( False )
+             // CodSituacion ( False )  //tipo: nvarchar
 
                        
-             // CodUsuarioAudit ( False )
+             // CodUsuarioAudit ( False )  //tipo: nvarchar
 
                        
-             // FechaAudit ( False )
+             // FechaAudit ( False )  //tipo: date
 
           
            
@@ -505,25 +505,25 @@ namespace ADADB.Entities
        // EstrategiaAAII
           
                        
-             // IdActivo ( True )
+             // IdActivo ( True )  //tipo: int
 
                        
-             // FcInicio ( True )
+             // FcInicio ( True )  //tipo: date
 
                        
-             // FcFin ( False )
+             // FcFin ( False )  //tipo: date
 
                        
-             // IdEstrategia ( False )
+             // IdEstrategia ( False )  //tipo: int
 
                        
-             // CodSituacion ( False )
+             // CodSituacion ( False )  //tipo: nvarchar
 
                        
-             // CodUsuarioAudit ( False )
+             // CodUsuarioAudit ( False )  //tipo: nvarchar
 
                        
-             // FechaAudit ( False )
+             // FechaAudit ( False )  //tipo: date
 
           
            
@@ -531,25 +531,25 @@ namespace ADADB.Entities
        // HIST_EstrategiaAACC
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // IdActivo ( False )
+             // IdActivo ( False )  //tipo: int
 
                        
-             // FcInicio ( False )
+             // FcInicio ( False )  //tipo: date
 
                        
-             // FcFin ( False )
+             // FcFin ( False )  //tipo: date
 
                        
-             // IdEstrategia ( False )
+             // IdEstrategia ( False )  //tipo: int
 
                        
-             // CodUsuarioAudit ( False )
+             // CodUsuarioAudit ( False )  //tipo: nvarchar
 
                        
-             // FechaAudit ( False )
+             // FechaAudit ( False )  //tipo: date
 
           
            
@@ -557,25 +557,25 @@ namespace ADADB.Entities
        // HIST_EstrategiaAAFF
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // IdActivo ( False )
+             // IdActivo ( False )  //tipo: int
 
                        
-             // FcInicio ( False )
+             // FcInicio ( False )  //tipo: date
 
                        
-             // FcFin ( False )
+             // FcFin ( False )  //tipo: date
 
                        
-             // IdEstrategia ( False )
+             // IdEstrategia ( False )  //tipo: int
 
                        
-             // CodUsuarioAudit ( False )
+             // CodUsuarioAudit ( False )  //tipo: nvarchar
 
                        
-             // FechaAudit ( False )
+             // FechaAudit ( False )  //tipo: date
 
           
            
@@ -583,25 +583,25 @@ namespace ADADB.Entities
        // HIST_EstrategiaAAII
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // IdActivo ( False )
+             // IdActivo ( False )  //tipo: int
 
                        
-             // FcInicio ( False )
+             // FcInicio ( False )  //tipo: date
 
                        
-             // FcFin ( False )
+             // FcFin ( False )  //tipo: date
 
                        
-             // IdEstrategia ( False )
+             // IdEstrategia ( False )  //tipo: int
 
                        
-             // CodUsuarioAudit ( False )
+             // CodUsuarioAudit ( False )  //tipo: nvarchar
 
                        
-             // FechaAudit ( False )
+             // FechaAudit ( False )  //tipo: date
 
           
            
@@ -609,25 +609,25 @@ namespace ADADB.Entities
        // SolCambioEstrategia
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: decimal
 
                        
-             // TipoActivo ( False )
+             // TipoActivo ( False )  //tipo: varchar
 
                        
-             // IdEstrategia ( False )
+             // IdEstrategia ( False )  //tipo: int
 
                        
-             // FcInicio ( False )
+             // FcInicio ( False )  //tipo: datetime
 
                        
-             // FcIniProceso ( False )
+             // FcIniProceso ( False )  //tipo: datetime
 
                        
-             // FcFinProceso ( False )
+             // FcFinProceso ( False )  //tipo: datetime
 
                        
-             // UserAudit ( False )
+             // UserAudit ( False )  //tipo: nvarchar
 
           
            
@@ -635,16 +635,16 @@ namespace ADADB.Entities
        // ValidacionEstrategia
           
                        
-             // IdCambioEstrategia ( True )
+             // IdCambioEstrategia ( True )  //tipo: int
 
                        
-             // IdActivo ( True )
+             // IdActivo ( True )  //tipo: decimal
 
                        
-             // IdValidacion ( False )
+             // IdValidacion ( False )  //tipo: decimal
 
                        
-             // FcAudit ( False )
+             // FcAudit ( False )  //tipo: datetime
 
           
            
@@ -652,34 +652,34 @@ namespace ADADB.Entities
        // HIST_TipologiaGestionAACC
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // IdActivo ( False )
+             // IdActivo ( False )  //tipo: int
 
                        
-             // FcInicio ( False )
+             // FcInicio ( False )  //tipo: date
 
                        
-             // FcFin ( False )
+             // FcFin ( False )  //tipo: date
 
                        
-             // CodEstadoGeneralGest ( False )
+             // CodEstadoGeneralGest ( False )  //tipo: nvarchar
 
                        
-             // CodUsoDominanteGest ( False )
+             // CodUsoDominanteGest ( False )  //tipo: nvarchar
 
                        
-             // CodSubTipoActivoGest ( False )
+             // CodSubTipoActivoGest ( False )  //tipo: nvarchar
 
                        
-             // CodCategoriaSueloGest ( False )
+             // CodCategoriaSueloGest ( False )  //tipo: nvarchar
 
                        
-             // CodUsuarioAudit ( False )
+             // CodUsuarioAudit ( False )  //tipo: nvarchar
 
                        
-             // FechaAudit ( False )
+             // FechaAudit ( False )  //tipo: date
 
           
            
@@ -687,34 +687,34 @@ namespace ADADB.Entities
        // HIST_TipologiaGestionAAII
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // IdActivo ( False )
+             // IdActivo ( False )  //tipo: int
 
                        
-             // FcInicio ( False )
+             // FcInicio ( False )  //tipo: date
 
                        
-             // FcFin ( False )
+             // FcFin ( False )  //tipo: date
 
                        
-             // CodEstadoGeneralGest ( False )
+             // CodEstadoGeneralGest ( False )  //tipo: nvarchar
 
                        
-             // CodUsoDominanteGest ( False )
+             // CodUsoDominanteGest ( False )  //tipo: nvarchar
 
                        
-             // CodSubTipoActivoGest ( False )
+             // CodSubTipoActivoGest ( False )  //tipo: nvarchar
 
                        
-             // CodCategoriaSueloGest ( False )
+             // CodCategoriaSueloGest ( False )  //tipo: nvarchar
 
                        
-             // CodUsuarioAudit ( False )
+             // CodUsuarioAudit ( False )  //tipo: nvarchar
 
                        
-             // FechaAudit ( False )
+             // FechaAudit ( False )  //tipo: date
 
           
            
@@ -722,34 +722,34 @@ namespace ADADB.Entities
        // SolCambioTipologia
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: decimal
 
                        
-             // TipoActivo ( False )
+             // TipoActivo ( False )  //tipo: varchar
 
                        
-             // CodEstadoGeneralGest ( False )
+             // CodEstadoGeneralGest ( False )  //tipo: nvarchar
 
                        
-             // CodUsoDominanteGest ( False )
+             // CodUsoDominanteGest ( False )  //tipo: nvarchar
 
                        
-             // CodSubTipoActivoGest ( False )
+             // CodSubTipoActivoGest ( False )  //tipo: nvarchar
 
                        
-             // CodCategoriaSueloGest ( False )
+             // CodCategoriaSueloGest ( False )  //tipo: nvarchar
 
                        
-             // FcInicio ( False )
+             // FcInicio ( False )  //tipo: date
 
                        
-             // FcInitProceso ( False )
+             // FcInitProceso ( False )  //tipo: datetime
 
                        
-             // FcFinProceso ( False )
+             // FcFinProceso ( False )  //tipo: datetime
 
                        
-             // UserAudit ( False )
+             // UserAudit ( False )  //tipo: nvarchar
 
           
            
@@ -757,31 +757,31 @@ namespace ADADB.Entities
        // TipologiaGestionAACC
           
                        
-             // IdActivo ( True )
+             // IdActivo ( True )  //tipo: int
 
                        
-             // FcInicio ( True )
+             // FcInicio ( True )  //tipo: date
 
                        
-             // FcFin ( False )
+             // FcFin ( False )  //tipo: date
 
                        
-             // CodEstadoGeneralGest ( False )
+             // CodEstadoGeneralGest ( False )  //tipo: nvarchar
 
                        
-             // CodUsoDominanteGest ( False )
+             // CodUsoDominanteGest ( False )  //tipo: nvarchar
 
                        
-             // CodSubTipoActivoGest ( False )
+             // CodSubTipoActivoGest ( False )  //tipo: nvarchar
 
                        
-             // CodCategoriaSueloGest ( False )
+             // CodCategoriaSueloGest ( False )  //tipo: nvarchar
 
                        
-             // CodUsuarioAudit ( False )
+             // CodUsuarioAudit ( False )  //tipo: nvarchar
 
                        
-             // FechaAudit ( False )
+             // FechaAudit ( False )  //tipo: date
 
           
            
@@ -789,31 +789,31 @@ namespace ADADB.Entities
        // TipologiaGestionAAII
           
                        
-             // IdActivo ( True )
+             // IdActivo ( True )  //tipo: int
 
                        
-             // FcInicio ( True )
+             // FcInicio ( True )  //tipo: date
 
                        
-             // FcFin ( False )
+             // FcFin ( False )  //tipo: date
 
                        
-             // CodEstadoGeneralGest ( False )
+             // CodEstadoGeneralGest ( False )  //tipo: nvarchar
 
                        
-             // CodUsoDominanteGest ( False )
+             // CodUsoDominanteGest ( False )  //tipo: nvarchar
 
                        
-             // CodSubTipoActivoGest ( False )
+             // CodSubTipoActivoGest ( False )  //tipo: nvarchar
 
                        
-             // CodCategoriaSueloGest ( False )
+             // CodCategoriaSueloGest ( False )  //tipo: nvarchar
 
                        
-             // CodUsuarioAudit ( False )
+             // CodUsuarioAudit ( False )  //tipo: nvarchar
 
                        
-             // FechaAudit ( False )
+             // FechaAudit ( False )  //tipo: date
 
           
            
@@ -821,16 +821,16 @@ namespace ADADB.Entities
        // ValidacionTipologiaGestion
           
                        
-             // IdCambioTipologiaGest ( True )
+             // IdCambioTipologiaGest ( True )  //tipo: int
 
                        
-             // IdActivo ( True )
+             // IdActivo ( True )  //tipo: decimal
 
                        
-             // IdValidacion ( False )
+             // IdValidacion ( False )  //tipo: decimal
 
                        
-             // FechaAudit ( False )
+             // FechaAudit ( False )  //tipo: datetime
 
           
            
@@ -838,19 +838,19 @@ namespace ADADB.Entities
        // log
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // FECHA ( False )
+             // FECHA ( False )  //tipo: datetime2
 
                        
-             // PROCESO ( False )
+             // PROCESO ( False )  //tipo: nvarchar
 
                        
-             // ESTADO ( False )
+             // ESTADO ( False )  //tipo: nvarchar
 
                        
-             // Descripcion ( False )
+             // Descripcion ( False )  //tipo: nvarchar
 
           
            
@@ -858,25 +858,25 @@ namespace ADADB.Entities
        // ActivoMarca
           
                        
-             // IdActivo ( True )
+             // IdActivo ( True )  //tipo: int
 
                        
-             // IdPerimetro ( True )
+             // IdPerimetro ( True )  //tipo: int
 
                        
-             // CodTipoActivo ( True )
+             // CodTipoActivo ( True )  //tipo: nvarchar
 
                        
-             // FechaMarcado ( False )
+             // FechaMarcado ( False )  //tipo: date
 
                        
-             // FechaFin ( False )
+             // FechaFin ( False )  //tipo: date
 
                        
-             // CodUsuarioAudit ( False )
+             // CodUsuarioAudit ( False )  //tipo: nvarchar
 
                        
-             // IdCargaPerimetro ( False )
+             // IdCargaPerimetro ( False )  //tipo: int
 
           
            
@@ -884,31 +884,31 @@ namespace ADADB.Entities
        // CargaPerimetro
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // IdPerimetro ( False )
+             // IdPerimetro ( False )  //tipo: int
 
                        
-             // CodUsuarioCarga ( False )
+             // CodUsuarioCarga ( False )  //tipo: nvarchar
 
                        
-             // FechaHoraCarga ( False )
+             // FechaHoraCarga ( False )  //tipo: datetime
 
                        
-             // CodTipoActivo ( False )
+             // CodTipoActivo ( False )  //tipo: nvarchar
 
                        
-             // FechaFin ( False )
+             // FechaFin ( False )  //tipo: date
 
                        
-             // EsCargaIncremental ( False )
+             // EsCargaIncremental ( False )  //tipo: bit
 
                        
-             // FechaHoraMarcado ( False )
+             // FechaHoraMarcado ( False )  //tipo: datetime
 
                        
-             // EstadoNotificacion ( False )
+             // EstadoNotificacion ( False )  //tipo: nvarchar
 
           
            
@@ -916,31 +916,31 @@ namespace ADADB.Entities
        // HIST_ActivoMarca
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // IdActivo ( False )
+             // IdActivo ( False )  //tipo: int
 
                        
-             // IdPerimetro ( False )
+             // IdPerimetro ( False )  //tipo: int
 
                        
-             // CodtipoActivo ( False )
+             // CodtipoActivo ( False )  //tipo: nvarchar
 
                        
-             // FechaMarcado ( False )
+             // FechaMarcado ( False )  //tipo: date
 
                        
-             // FechaFin ( False )
+             // FechaFin ( False )  //tipo: date
 
                        
-             // CodUsuarioAudit ( False )
+             // CodUsuarioAudit ( False )  //tipo: nvarchar
 
                        
-             // IdCargaPerimetro ( False )
+             // IdCargaPerimetro ( False )  //tipo: int
 
                        
-             // FechaHoraAudit ( False )
+             // FechaHoraAudit ( False )  //tipo: datetime
 
           
            
@@ -948,55 +948,55 @@ namespace ADADB.Entities
        // Perimetro
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // CodMarca ( False )
+             // CodMarca ( False )  //tipo: nvarchar
 
                        
-             // Descripcion ( False )
+             // Descripcion ( False )  //tipo: nvarchar
 
                        
-             // DescripcionLarga ( False )
+             // DescripcionLarga ( False )  //tipo: nvarchar
 
                        
-             // IdSubTipoPerimetro ( False )
+             // IdSubTipoPerimetro ( False )  //tipo: int
 
                        
-             // IdNivelBloqueo ( False )
+             // IdNivelBloqueo ( False )  //tipo: int
 
                        
-             // IdAreaResponsable ( False )
+             // IdAreaResponsable ( False )  //tipo: int
 
                        
-             // AplicaAAII ( False )
+             // AplicaAAII ( False )  //tipo: bit
 
                        
-             // AplicaAAFF ( False )
+             // AplicaAAFF ( False )  //tipo: bit
 
                        
-             // AplicaAACC ( False )
+             // AplicaAACC ( False )  //tipo: bit
 
                        
-             // PermiteCargaIncremental ( False )
+             // PermiteCargaIncremental ( False )  //tipo: bit
 
                        
-             // FechaAlta ( False )
+             // FechaAlta ( False )  //tipo: datetime
 
                        
-             // CodUsuarioAudit ( False )
+             // CodUsuarioAudit ( False )  //tipo: nvarchar
 
                        
-             // FechaHoraAudit ( False )
+             // FechaHoraAudit ( False )  //tipo: datetime
 
                        
-             // CodSituacion ( False )
+             // CodSituacion ( False )  //tipo: nvarchar
 
                        
-             // EsHeredable ( False )
+             // EsHeredable ( False )  //tipo: bit
 
                        
-             // FechaFin ( False )
+             // FechaFin ( False )  //tipo: datetime
 
           
            
@@ -1004,13 +1004,13 @@ namespace ADADB.Entities
        // ValidacionPerimetro
           
                        
-             // IdActivo ( True )
+             // IdActivo ( True )  //tipo: int
 
                        
-             // IdCargaPerimetro ( True )
+             // IdCargaPerimetro ( True )  //tipo: int
 
                        
-             // IdValidacion ( False )
+             // IdValidacion ( False )  //tipo: int
 
           
            
@@ -1018,166 +1018,166 @@ namespace ADADB.Entities
        // DM_POSICION_AACC_TB
           
                        
-             // ID_ACTIVO_SAREB ( True )
+             // ID_ACTIVO_SAREB ( True )  //tipo: decimal
 
                        
-             // FCH_CIERRE_DT ( True )
+             // FCH_CIERRE_DT ( True )  //tipo: date
 
                        
-             // FCH_ALTA ( False )
+             // FCH_ALTA ( False )  //tipo: date
 
                        
-             // FCH_BAJA ( False )
+             // FCH_BAJA ( False )  //tipo: date
 
                        
-             // COD_SERVICER ( False )
+             // COD_SERVICER ( False )  //tipo: nvarchar
 
                        
-             // DES_SERVICER ( False )
+             // DES_SERVICER ( False )  //tipo: nvarchar
 
                        
-             // ID_REF_CATAST ( False )
+             // ID_REF_CATAST ( False )  //tipo: nvarchar
 
                        
-             // ID_IDUFIR ( False )
+             // ID_IDUFIR ( False )  //tipo: nvarchar
 
                        
-             // ID_FIN_REG ( False )
+             // ID_FIN_REG ( False )  //tipo: nvarchar
 
                        
-             // NUM_REG ( False )
+             // NUM_REG ( False )  //tipo: nvarchar
 
                        
-             // COD_PROVNC_REG ( False )
+             // COD_PROVNC_REG ( False )  //tipo: nvarchar
 
                        
-             // DES_PROVNC_REG ( False )
+             // DES_PROVNC_REG ( False )  //tipo: nvarchar
 
                        
-             // COD_MUNICP_REG ( False )
+             // COD_MUNICP_REG ( False )  //tipo: nvarchar
 
                        
-             // DES_MUNICP_REG ( False )
+             // DES_MUNICP_REG ( False )  //tipo: nvarchar
 
                        
-             // COD_COMUNI_AUTO ( False )
+             // COD_COMUNI_AUTO ( False )  //tipo: nvarchar
 
                        
-             // DES_COMUNI_AUTO ( False )
+             // DES_COMUNI_AUTO ( False )  //tipo: nvarchar
 
                        
-             // NOMB_REG ( False )
+             // NOMB_REG ( False )  //tipo: nvarchar
 
                        
-             // ID_SUBFIN_REG ( False )
+             // ID_SUBFIN_REG ( False )  //tipo: nvarchar
 
                        
-             // COD_TIPO_GTIA ( False )
+             // COD_TIPO_GTIA ( False )  //tipo: nvarchar
 
                        
-             // DES_TIPO_GTIA ( False )
+             // DES_TIPO_GTIA ( False )  //tipo: nvarchar
 
                        
-             // COD_TIPO_ACT_AACC ( False )
+             // COD_TIPO_ACT_AACC ( False )  //tipo: nvarchar
 
                        
-             // DES_TIPO_ACT_AACC ( False )
+             // DES_TIPO_ACT_AACC ( False )  //tipo: nvarchar
 
                        
-             // COD_PAIS ( False )
+             // COD_PAIS ( False )  //tipo: nvarchar
 
                        
-             // DES_PAIS ( False )
+             // DES_PAIS ( False )  //tipo: nvarchar
 
                        
-             // COD_PROVNC ( False )
+             // COD_PROVNC ( False )  //tipo: nvarchar
 
                        
-             // DES_PROVNC ( False )
+             // DES_PROVNC ( False )  //tipo: nvarchar
 
                        
-             // COD_MUNICP ( False )
+             // COD_MUNICP ( False )  //tipo: nvarchar
 
                        
-             // DES_MUNICP ( False )
+             // DES_MUNICP ( False )  //tipo: nvarchar
 
                        
-             // DES_POBLCN ( False )
+             // DES_POBLCN ( False )  //tipo: nvarchar
 
                        
-             // COD_TIPO_VIA ( False )
+             // COD_TIPO_VIA ( False )  //tipo: nvarchar
 
                        
-             // DES_TIPO_VIA ( False )
+             // DES_TIPO_VIA ( False )  //tipo: nvarchar
 
                        
-             // DES_NOMBRE_VIA ( False )
+             // DES_NOMBRE_VIA ( False )  //tipo: nvarchar
 
                        
-             // NUM_VIA ( False )
+             // NUM_VIA ( False )  //tipo: nvarchar
 
                        
-             // NUM_VIA_L ( False )
+             // NUM_VIA_L ( False )  //tipo: nvarchar
 
                        
-             // NUM_VIA_2 ( False )
+             // NUM_VIA_2 ( False )  //tipo: nvarchar
 
                        
-             // NUM_VIA_2_L ( False )
+             // NUM_VIA_2_L ( False )  //tipo: nvarchar
 
                        
-             // DES_BLOQUE ( False )
+             // DES_BLOQUE ( False )  //tipo: nvarchar
 
                        
-             // DES_PUERTA ( False )
+             // DES_PUERTA ( False )  //tipo: nvarchar
 
                        
-             // DES_ESCALERA ( False )
+             // DES_ESCALERA ( False )  //tipo: nvarchar
 
                        
-             // NUM_COD_POSTAL ( False )
+             // NUM_COD_POSTAL ( False )  //tipo: nvarchar
 
                        
-             // DES_PLANTA ( False )
+             // DES_PLANTA ( False )  //tipo: nvarchar
 
                        
-             // IMP_GTIA ( False )
+             // IMP_GTIA ( False )  //tipo: decimal
 
                        
-             // IND_STATUS ( False )
+             // IND_STATUS ( False )  //tipo: nvarchar
 
                        
-             // TS_ALTA ( False )
+             // TS_ALTA ( False )  //tipo: datetime2
 
                        
-             // ESCALERA ( False )
+             // ESCALERA ( False )  //tipo: nvarchar
 
                        
-             // COD_CL_USO_DOM ( False )
+             // COD_CL_USO_DOM ( False )  //tipo: nvarchar
 
                        
-             // DES_CL_USO_DOM ( False )
+             // DES_CL_USO_DOM ( False )  //tipo: nvarchar
 
                        
-             // COD_SUBTIP_AAII_SAREB ( False )
+             // COD_SUBTIP_AAII_SAREB ( False )  //tipo: nvarchar
 
                        
-             // DES_SUBTIP_AAII_SAREB ( False )
+             // DES_SUBTIP_AAII_SAREB ( False )  //tipo: nvarchar
 
                        
-             // COD_ESTADO_GEN ( False )
+             // COD_ESTADO_GEN ( False )  //tipo: nvarchar
 
                        
-             // DES_ESTADO_GEN ( False )
+             // DES_ESTADO_GEN ( False )  //tipo: nvarchar
 
                        
-             // COD_CATEG_SUELO ( False )
+             // COD_CATEG_SUELO ( False )  //tipo: nvarchar
 
                        
-             // ID_ACTIVO_REF_DUP ( False )
+             // ID_ACTIVO_REF_DUP ( False )  //tipo: decimal
 
                        
-             // COD_TIPO_ORIGEN ( False )
+             // COD_TIPO_ORIGEN ( False )  //tipo: nvarchar
 
           
            
@@ -1185,55 +1185,55 @@ namespace ADADB.Entities
        // DM_POSICION_AAFF_TB
           
                        
-             // ID_ACTIVO_SAREB ( True )
+             // ID_ACTIVO_SAREB ( True )  //tipo: decimal
 
                        
-             // FCH_CIERRE_DT ( True )
+             // FCH_CIERRE_DT ( True )  //tipo: date
 
                        
-             // FCH_ALTA ( False )
+             // FCH_ALTA ( False )  //tipo: date
 
                        
-             // FCH_BAJA ( False )
+             // FCH_BAJA ( False )  //tipo: date
 
                        
-             // ID_ENTIDD ( False )
+             // ID_ENTIDD ( False )  //tipo: nvarchar
 
                        
-             // DES_ENTIDD ( False )
+             // DES_ENTIDD ( False )  //tipo: nvarchar
 
                        
-             // COD_RENDIM ( False )
+             // COD_RENDIM ( False )  //tipo: nvarchar
 
                        
-             // DES_RENDIM ( False )
+             // DES_RENDIM ( False )  //tipo: nvarchar
 
                        
-             // ID_SUCU ( False )
+             // ID_SUCU ( False )  //tipo: nvarchar
 
                        
-             // NUM_NCTA ( False )
+             // NUM_NCTA ( False )  //tipo: nvarchar
 
                        
-             // COD_SERVICER ( False )
+             // COD_SERVICER ( False )  //tipo: nvarchar
 
                        
-             // DES_SERVICER ( False )
+             // DES_SERVICER ( False )  //tipo: nvarchar
 
                        
-             // IMP_PT_CESION ( False )
+             // IMP_PT_CESION ( False )  //tipo: decimal
 
                        
-             // IMP_PT ( False )
+             // IMP_PT ( False )  //tipo: decimal
 
                        
-             // COD_TIPO_INTERV ( False )
+             // COD_TIPO_INTERV ( False )  //tipo: nvarchar
 
                        
-             // IND_STATUS ( False )
+             // IND_STATUS ( False )  //tipo: nvarchar
 
                        
-             // TS_ALTA ( False )
+             // TS_ALTA ( False )  //tipo: datetime
 
           
            
@@ -1241,166 +1241,166 @@ namespace ADADB.Entities
        // DM_POSICION_AAII_TB
           
                        
-             // ID_ACTIVO_SAREB ( True )
+             // ID_ACTIVO_SAREB ( True )  //tipo: decimal
 
                        
-             // FCH_CIERRE_DT ( True )
+             // FCH_CIERRE_DT ( True )  //tipo: date
 
                        
-             // FCH_ALTA ( False )
+             // FCH_ALTA ( False )  //tipo: date
 
                        
-             // FCH_BAJA ( False )
+             // FCH_BAJA ( False )  //tipo: date
 
                        
-             // COD_SERVICER ( False )
+             // COD_SERVICER ( False )  //tipo: nvarchar
 
                        
-             // DES_SERVICER ( False )
+             // DES_SERVICER ( False )  //tipo: nvarchar
 
                        
-             // ID_REF_CATAST ( False )
+             // ID_REF_CATAST ( False )  //tipo: nvarchar
 
                        
-             // DES_TOMO ( False )
+             // DES_TOMO ( False )  //tipo: nvarchar
 
                        
-             // DES_LIBRO ( False )
+             // DES_LIBRO ( False )  //tipo: nvarchar
 
                        
-             // ID_IDUFIR ( False )
+             // ID_IDUFIR ( False )  //tipo: nvarchar
 
                        
-             // ID_FIN_REG ( False )
+             // ID_FIN_REG ( False )  //tipo: nvarchar
 
                        
-             // NUM_REG ( False )
+             // NUM_REG ( False )  //tipo: nvarchar
 
                        
-             // ID_SUBFIN_REG ( False )
+             // ID_SUBFIN_REG ( False )  //tipo: nvarchar
 
                        
-             // COD_REG_UNIVOC ( False )
+             // COD_REG_UNIVOC ( False )  //tipo: nvarchar
 
                        
-             // COD_PROVNC_REG ( False )
+             // COD_PROVNC_REG ( False )  //tipo: nvarchar
 
                        
-             // DES_PROVNC_REG ( False )
+             // DES_PROVNC_REG ( False )  //tipo: nvarchar
 
                        
-             // COD_MUNICP_REG ( False )
+             // COD_MUNICP_REG ( False )  //tipo: nvarchar
 
                        
-             // DES_MUNICP_REG ( False )
+             // DES_MUNICP_REG ( False )  //tipo: nvarchar
 
                        
-             // COD_TIPO_AAII ( False )
+             // COD_TIPO_AAII ( False )  //tipo: nvarchar
 
                        
-             // DES_TIPO_AAII ( False )
+             // DES_TIPO_AAII ( False )  //tipo: nvarchar
 
                        
-             // COD_SUBTIPO_AAII ( False )
+             // COD_SUBTIPO_AAII ( False )  //tipo: nvarchar
 
                        
-             // DES_SUBTIPO_AAII ( False )
+             // DES_SUBTIPO_AAII ( False )  //tipo: nvarchar
 
                        
-             // COD_PAIS ( False )
+             // COD_PAIS ( False )  //tipo: nvarchar
 
                        
-             // DES_PAIS ( False )
+             // DES_PAIS ( False )  //tipo: nvarchar
 
                        
-             // COD_PROVNC ( False )
+             // COD_PROVNC ( False )  //tipo: nvarchar
 
                        
-             // DES_PROVNC ( False )
+             // DES_PROVNC ( False )  //tipo: nvarchar
 
                        
-             // COD_COMUNI_AUTO ( False )
+             // COD_COMUNI_AUTO ( False )  //tipo: nvarchar
 
                        
-             // DES_COMUNI_AUTO ( False )
+             // DES_COMUNI_AUTO ( False )  //tipo: nvarchar
 
                        
-             // COD_MUNICP ( False )
+             // COD_MUNICP ( False )  //tipo: nvarchar
 
                        
-             // DES_MUNICP ( False )
+             // DES_MUNICP ( False )  //tipo: nvarchar
 
                        
-             // DES_POBLCN ( False )
+             // DES_POBLCN ( False )  //tipo: nvarchar
 
                        
-             // COD_TIPO_VIA ( False )
+             // COD_TIPO_VIA ( False )  //tipo: nvarchar
 
                        
-             // DES_TIPO_VIA ( False )
+             // DES_TIPO_VIA ( False )  //tipo: nvarchar
 
                        
-             // DES_NOMBRE_VIA ( False )
+             // DES_NOMBRE_VIA ( False )  //tipo: nvarchar
 
                        
-             // NUM_VIA ( False )
+             // NUM_VIA ( False )  //tipo: nvarchar
 
                        
-             // DES_BLOQUE ( False )
+             // DES_BLOQUE ( False )  //tipo: nvarchar
 
                        
-             // DES_PUERTA ( False )
+             // DES_PUERTA ( False )  //tipo: nvarchar
 
                        
-             // NUM_COD_POSTAL ( False )
+             // NUM_COD_POSTAL ( False )  //tipo: nvarchar
 
                        
-             // DES_PLANTA ( False )
+             // DES_PLANTA ( False )  //tipo: nvarchar
 
                        
-             // IMP_PT ( False )
+             // IMP_PT ( False )  //tipo: decimal
 
                        
-             // IMP_PT_CES ( False )
+             // IMP_PT_CES ( False )  //tipo: decimal
 
                        
-             // IND_STATUS ( False )
+             // IND_STATUS ( False )  //tipo: nvarchar
 
                        
-             // TS_ALTA ( False )
+             // TS_ALTA ( False )  //tipo: datetime2
 
                        
-             // COD_SUBTIP_AAII_SAREB ( False )
+             // COD_SUBTIP_AAII_SAREB ( False )  //tipo: nvarchar
 
                        
-             // DES_SUBTIP_AAII_SAREB ( False )
+             // DES_SUBTIP_AAII_SAREB ( False )  //tipo: nvarchar
 
                        
-             // COD_ESTADO_GEN ( False )
+             // COD_ESTADO_GEN ( False )  //tipo: nvarchar
 
                        
-             // DES_ESTADO_GEN ( False )
+             // DES_ESTADO_GEN ( False )  //tipo: nvarchar
 
                        
-             // COD_CATEG_SUELO ( False )
+             // COD_CATEG_SUELO ( False )  //tipo: nvarchar
 
                        
-             // ID_PROMCN_SAREB ( False )
+             // ID_PROMCN_SAREB ( False )  //tipo: nvarchar
 
                        
-             // ESCALERA ( False )
+             // ESCALERA ( False )  //tipo: nvarchar
 
                        
-             // COD_CL_USO_DOM ( False )
+             // COD_CL_USO_DOM ( False )  //tipo: nvarchar
 
                        
-             // DES_TERRITORIAL ( False )
+             // DES_TERRITORIAL ( False )  //tipo: nvarchar
 
                        
-             // DES_CL_USO_DOM ( False )
+             // DES_CL_USO_DOM ( False )  //tipo: nvarchar
 
                        
-             // COD_TIPO_ORIGEN ( False )
+             // COD_TIPO_ORIGEN ( False )  //tipo: nvarchar
 
           
            
@@ -1408,112 +1408,112 @@ namespace ADADB.Entities
        // DM_POSICION_INTERVINIENTES_TB
           
                        
-             // ID_INTERV ( True )
+             // ID_INTERV ( True )  //tipo: decimal
 
                        
-             // ID_SERV ( True )
+             // ID_SERV ( True )  //tipo: nvarchar
 
                        
-             // FCH_CIERRE_DT ( True )
+             // FCH_CIERRE_DT ( True )  //tipo: date
 
                        
-             // ID_IDEN ( False )
+             // ID_IDEN ( False )  //tipo: varchar
 
                        
-             // COD_TIPO_IDEN ( False )
+             // COD_TIPO_IDEN ( False )  //tipo: varchar
 
                        
-             // DES_TIPO_IDEN ( False )
+             // DES_TIPO_IDEN ( False )  //tipo: varchar
 
                        
-             // DES_NOMBRE ( False )
+             // DES_NOMBRE ( False )  //tipo: varchar
 
                        
-             // DES_APELLD_1 ( False )
+             // DES_APELLD_1 ( False )  //tipo: varchar
 
                        
-             // DES_APELLD_2 ( False )
+             // DES_APELLD_2 ( False )  //tipo: varchar
 
                        
-             // COD_TIPO_VIA ( False )
+             // COD_TIPO_VIA ( False )  //tipo: varchar
 
                        
-             // DES_TIPO_VIA ( False )
+             // DES_TIPO_VIA ( False )  //tipo: varchar
 
                        
-             // DES_NOMBRE_VIA ( False )
+             // DES_NOMBRE_VIA ( False )  //tipo: varchar
 
                        
-             // NUM_VIA ( False )
+             // NUM_VIA ( False )  //tipo: varchar
 
                        
-             // NUM_BLOQUE_PORTAL ( False )
+             // NUM_BLOQUE_PORTAL ( False )  //tipo: varchar
 
                        
-             // NUM_ESCA ( False )
+             // NUM_ESCA ( False )  //tipo: varchar
 
                        
-             // NUM_PLANTA ( False )
+             // NUM_PLANTA ( False )  //tipo: varchar
 
                        
-             // NUM_PUERTA ( False )
+             // NUM_PUERTA ( False )  //tipo: varchar
 
                        
-             // NUM_COD_POSTAL ( False )
+             // NUM_COD_POSTAL ( False )  //tipo: varchar
 
                        
-             // DES_LOCALD ( False )
+             // DES_LOCALD ( False )  //tipo: varchar
 
                        
-             // COD_MUNICP ( False )
+             // COD_MUNICP ( False )  //tipo: varchar
 
                        
-             // DES_MUNICP ( False )
+             // DES_MUNICP ( False )  //tipo: varchar
 
                        
-             // COD_PROVNC ( False )
+             // COD_PROVNC ( False )  //tipo: varchar
 
                        
-             // DES_PROVNC ( False )
+             // DES_PROVNC ( False )  //tipo: varchar
 
                        
-             // COD_COMAUT ( False )
+             // COD_COMAUT ( False )  //tipo: varchar
 
                        
-             // DES_COMAUT ( False )
+             // DES_COMAUT ( False )  //tipo: varchar
 
                        
-             // COD_PAIS ( False )
+             // COD_PAIS ( False )  //tipo: varchar
 
                        
-             // DES_PAIS ( False )
+             // DES_PAIS ( False )  //tipo: nvarchar
 
                        
-             // ID_GRUPO_RIESGO ( False )
+             // ID_GRUPO_RIESGO ( False )  //tipo: varchar
 
                        
-             // DES_NOMBRE_GRUPO ( False )
+             // DES_NOMBRE_GRUPO ( False )  //tipo: varchar
 
                        
-             // IND_STATUS ( False )
+             // IND_STATUS ( False )  //tipo: varchar
 
                        
-             // TS_ALTA ( False )
+             // TS_ALTA ( False )  //tipo: datetime2
 
                        
-             // COD_TIPO_PERSON_JURIDIC ( False )
+             // COD_TIPO_PERSON_JURIDIC ( False )  //tipo: nvarchar
 
                        
-             // DES_TIPO_PERSON_JURIDIC ( False )
+             // DES_TIPO_PERSON_JURIDIC ( False )  //tipo: nvarchar
 
                        
-             // IND_GRND_ACREDT_GSTION_DIRECT ( False )
+             // IND_GRND_ACREDT_GSTION_DIRECT ( False )  //tipo: nvarchar
 
                        
-             // FCH_ALTA ( False )
+             // FCH_ALTA ( False )  //tipo: date
 
                        
-             // FCH_BAJA ( False )
+             // FCH_BAJA ( False )  //tipo: date
 
           
            
@@ -1521,16 +1521,16 @@ namespace ADADB.Entities
        // DM_POSICION_SUELO_TB
           
                        
-             // ID_ACTIVO ( False )
+             // ID_ACTIVO ( False )  //tipo: decimal
 
                        
-             // FCH_CIERRE_DT ( False )
+             // FCH_CIERRE_DT ( False )  //tipo: date
 
                        
-             // ID_SECTOR ( False )
+             // ID_SECTOR ( False )  //tipo: nvarchar
 
                        
-             // TS_ALTA ( False )
+             // TS_ALTA ( False )  //tipo: datetime
 
           
            
@@ -1538,25 +1538,25 @@ namespace ADADB.Entities
        // DM_RELA_ACTIVO_GARANTIAS_TB
           
                        
-             // ID_ACTIVO ( True )
+             // ID_ACTIVO ( True )  //tipo: decimal
 
                        
-             // ID_ACTIVO_GTIA ( True )
+             // ID_ACTIVO_GTIA ( True )  //tipo: decimal
 
                        
-             // FCH_CIERRE_DT ( True )
+             // FCH_CIERRE_DT ( True )  //tipo: date
 
                        
-             // COD_TIPO_GTIA ( False )
+             // COD_TIPO_GTIA ( False )  //tipo: varchar
 
                        
-             // DES_TIPO_GTIA ( False )
+             // DES_TIPO_GTIA ( False )  //tipo: varchar
 
                        
-             // IND_STATUS ( False )
+             // IND_STATUS ( False )  //tipo: varchar
 
                        
-             // TS_ALTA ( False )
+             // TS_ALTA ( False )  //tipo: datetime2
 
           
            
@@ -1564,37 +1564,37 @@ namespace ADADB.Entities
        // DM_RELA_ACTIVO_INTERVINIENTE_TB
           
                        
-             // ID_INTERV ( True )
+             // ID_INTERV ( True )  //tipo: decimal
 
                        
-             // ID_ACTIVO ( True )
+             // ID_ACTIVO ( True )  //tipo: decimal
 
                        
-             // COD_TIPO_RELA_ACTINT ( True )
+             // COD_TIPO_RELA_ACTINT ( True )  //tipo: nvarchar
 
                        
-             // FCH_CIERRE_DT ( True )
+             // FCH_CIERRE_DT ( True )  //tipo: date
 
                        
-             // DES_TIPO_RELA_ACTINT ( False )
+             // DES_TIPO_RELA_ACTINT ( False )  //tipo: nvarchar
 
                        
-             // ID_IDEN ( False )
+             // ID_IDEN ( False )  //tipo: nvarchar
 
                        
-             // COD_TIPO_TITULR ( False )
+             // COD_TIPO_TITULR ( False )  //tipo: nvarchar
 
                        
-             // DES_TIPO_TITULR ( False )
+             // DES_TIPO_TITULR ( False )  //tipo: nvarchar
 
                        
-             // NUM_ORDEN_INTERV ( False )
+             // NUM_ORDEN_INTERV ( False )  //tipo: int
 
                        
-             // IND_STATUS ( False )
+             // IND_STATUS ( False )  //tipo: nvarchar
 
                        
-             // TS_ALTA ( False )
+             // TS_ALTA ( False )  //tipo: datetime
 
           
            
@@ -1602,25 +1602,25 @@ namespace ADADB.Entities
        // PV_MAESTRO_CODIGOS
           
                        
-             // USO_AGRUPACION ( False )
+             // USO_AGRUPACION ( False )  //tipo: nvarchar
 
                        
-             // CLAVE_AGRUPADORA ( False )
+             // CLAVE_AGRUPADORA ( False )  //tipo: nvarchar
 
                        
-             // CODIGO_AGRUPACION ( False )
+             // CODIGO_AGRUPACION ( False )  //tipo: varchar
 
                        
-             // IND_SUELO ( False )
+             // IND_SUELO ( False )  //tipo: decimal
 
                        
-             // RAIZ_COD ( False )
+             // RAIZ_COD ( False )  //tipo: varchar
 
                        
-             // ORIGEN ( False )
+             // ORIGEN ( False )  //tipo: varchar
 
                        
-             // TS_ALTA ( False )
+             // TS_ALTA ( False )  //tipo: date
 
           
            
@@ -1628,19 +1628,19 @@ namespace ADADB.Entities
        // AreaResponsable
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // Nombre ( False )
+             // Nombre ( False )  //tipo: nvarchar
 
                        
-             // Buzon ( False )
+             // Buzon ( False )  //tipo: nvarchar
 
                        
-             // FechAlta ( False )
+             // FechAlta ( False )  //tipo: datetime
 
                        
-             // CodUsuarioAudit ( False )
+             // CodUsuarioAudit ( False )  //tipo: nvarchar
 
           
            
@@ -1648,34 +1648,34 @@ namespace ADADB.Entities
        // Estrategia
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // CodEstrategia ( False )
+             // CodEstrategia ( False )  //tipo: nvarchar
 
                        
-             // Descripcion ( False )
+             // Descripcion ( False )  //tipo: nvarchar
 
                        
-             // AplicaAAII ( False )
+             // AplicaAAII ( False )  //tipo: bit
 
                        
-             // AplicaAAFF ( False )
+             // AplicaAAFF ( False )  //tipo: bit
 
                        
-             // AplicaAACC ( False )
+             // AplicaAACC ( False )  //tipo: bit
 
                        
-             // userAudit ( False )
+             // userAudit ( False )  //tipo: nvarchar
 
                        
-             // fechaAlta ( False )
+             // fechaAlta ( False )  //tipo: datetime2
 
                        
-             // IdPerimetroAutomatico ( False )
+             // IdPerimetroAutomatico ( False )  //tipo: int
 
                        
-             // AplicaEstrategiasRepetidas ( False )
+             // AplicaEstrategiasRepetidas ( False )  //tipo: bit
 
           
            
@@ -1683,25 +1683,25 @@ namespace ADADB.Entities
        // HIST_AreaResponsable
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // IdAreaResponsable ( False )
+             // IdAreaResponsable ( False )  //tipo: int
 
                        
-             // Descripcion ( False )
+             // Descripcion ( False )  //tipo: nvarchar
 
                        
-             // Buzon ( False )
+             // Buzon ( False )  //tipo: nvarchar
 
                        
-             // CodUsuarioAudit ( False )
+             // CodUsuarioAudit ( False )  //tipo: nvarchar
 
                        
-             // FechaAlta ( False )
+             // FechaAlta ( False )  //tipo: date
 
                        
-             // FechaBaja ( False )
+             // FechaBaja ( False )  //tipo: date
 
           
            
@@ -1709,25 +1709,25 @@ namespace ADADB.Entities
        // HIST_ModeloGestion
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // IdModeloGestion ( False )
+             // IdModeloGestion ( False )  //tipo: int
 
                        
-             // CodModeloGestion ( False )
+             // CodModeloGestion ( False )  //tipo: nvarchar
 
                        
-             // Descripcion ( False )
+             // Descripcion ( False )  //tipo: nvarchar
 
                        
-             // userAudit ( False )
+             // userAudit ( False )  //tipo: nvarchar
 
                        
-             // fechaAlta ( False )
+             // fechaAlta ( False )  //tipo: datetime2
 
                        
-             // fechaBaja ( False )
+             // fechaBaja ( False )  //tipo: datetime2
 
           
            
@@ -1735,25 +1735,25 @@ namespace ADADB.Entities
        // HIST_NivelBloqueo
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // IdNivelBloqueo ( False )
+             // IdNivelBloqueo ( False )  //tipo: int
 
                        
-             // CodNivelBloqueo ( False )
+             // CodNivelBloqueo ( False )  //tipo: int
 
                        
-             // Descripcion ( False )
+             // Descripcion ( False )  //tipo: nvarchar
 
                        
-             // CodUsuarioAudit ( False )
+             // CodUsuarioAudit ( False )  //tipo: nvarchar
 
                        
-             // FechaAlta ( False )
+             // FechaAlta ( False )  //tipo: date
 
                        
-             // FechaBaja ( False )
+             // FechaBaja ( False )  //tipo: date
 
           
            
@@ -1761,49 +1761,49 @@ namespace ADADB.Entities
        // HIST_Perimetro
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // IdPerimetro ( False )
+             // IdPerimetro ( False )  //tipo: int
 
                        
-             // CodMarca ( False )
+             // CodMarca ( False )  //tipo: nvarchar
 
                        
-             // Descripcion ( False )
+             // Descripcion ( False )  //tipo: nvarchar
 
                        
-             // DescripcionLarga ( False )
+             // DescripcionLarga ( False )  //tipo: nvarchar
 
                        
-             // IdSubtipoPerimetro ( False )
+             // IdSubtipoPerimetro ( False )  //tipo: int
 
                        
-             // IdNivelBloqueo ( False )
+             // IdNivelBloqueo ( False )  //tipo: int
 
                        
-             // IdAreaResponsable ( False )
+             // IdAreaResponsable ( False )  //tipo: int
 
                        
-             // AplicaAAII ( False )
+             // AplicaAAII ( False )  //tipo: bit
 
                        
-             // AplicaAAFF ( False )
+             // AplicaAAFF ( False )  //tipo: bit
 
                        
-             // AplicaAACC ( False )
+             // AplicaAACC ( False )  //tipo: bit
 
                        
-             // PermiteCargaIncremental ( False )
+             // PermiteCargaIncremental ( False )  //tipo: bit
 
                        
-             // CodUsuarioAudit ( False )
+             // CodUsuarioAudit ( False )  //tipo: nvarchar
 
                        
-             // FechaAlta ( False )
+             // FechaAlta ( False )  //tipo: date
 
                        
-             // FechaBaja ( False )
+             // FechaBaja ( False )  //tipo: date
 
           
            
@@ -1811,25 +1811,25 @@ namespace ADADB.Entities
        // HIST_PerimetroOperativo
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // IdPerimetro ( False )
+             // IdPerimetro ( False )  //tipo: int
 
                        
-             // CodPerimetro ( False )
+             // CodPerimetro ( False )  //tipo: nvarchar
 
                        
-             // Descripcion ( False )
+             // Descripcion ( False )  //tipo: nvarchar
 
                        
-             // userAudit ( False )
+             // userAudit ( False )  //tipo: nvarchar
 
                        
-             // fechaAlta ( False )
+             // fechaAlta ( False )  //tipo: datetime2
 
                        
-             // fechaBaja ( False )
+             // fechaBaja ( False )  //tipo: datetime2
 
           
            
@@ -1837,25 +1837,25 @@ namespace ADADB.Entities
        // HIST_ServicerComercial
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // IdServicer ( False )
+             // IdServicer ( False )  //tipo: int
 
                        
-             // CodServicer ( False )
+             // CodServicer ( False )  //tipo: nvarchar
 
                        
-             // Descripcion ( False )
+             // Descripcion ( False )  //tipo: nvarchar
 
                        
-             // userAudit ( False )
+             // userAudit ( False )  //tipo: nvarchar
 
                        
-             // fechaAlta ( False )
+             // fechaAlta ( False )  //tipo: datetime2
 
                        
-             // fechaBaja ( False )
+             // fechaBaja ( False )  //tipo: datetime2
 
           
            
@@ -1863,25 +1863,25 @@ namespace ADADB.Entities
        // HIST_subtipoPerimetro
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // IdSubtipoperimetro ( False )
+             // IdSubtipoperimetro ( False )  //tipo: int
 
                        
-             // Descripcion ( False )
+             // Descripcion ( False )  //tipo: nvarchar
 
                        
-             // IdTipoPerimetro ( False )
+             // IdTipoPerimetro ( False )  //tipo: int
 
                        
-             // CodUsuarioAudit ( False )
+             // CodUsuarioAudit ( False )  //tipo: nvarchar
 
                        
-             // FechaAlta ( False )
+             // FechaAlta ( False )  //tipo: date
 
                        
-             // FechaBaja ( False )
+             // FechaBaja ( False )  //tipo: date
 
           
            
@@ -1889,25 +1889,25 @@ namespace ADADB.Entities
        // HIST_TerritorialUbicacion
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // IdTerritorial ( False )
+             // IdTerritorial ( False )  //tipo: int
 
                        
-             // CodTerritorialUbicacion ( False )
+             // CodTerritorialUbicacion ( False )  //tipo: nvarchar
 
                        
-             // Descripcion ( False )
+             // Descripcion ( False )  //tipo: nvarchar
 
                        
-             // userAudit ( False )
+             // userAudit ( False )  //tipo: nvarchar
 
                        
-             // fechaAlta ( False )
+             // fechaAlta ( False )  //tipo: datetime2
 
                        
-             // fechaBaja ( False )
+             // fechaBaja ( False )  //tipo: datetime2
 
           
            
@@ -1915,28 +1915,28 @@ namespace ADADB.Entities
        // HIST_UbicacionProvincia
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // IdProvincia ( False )
+             // IdProvincia ( False )  //tipo: int
 
                        
-             // CodProvincia ( False )
+             // CodProvincia ( False )  //tipo: nvarchar
 
                        
-             // Descripcion ( False )
+             // Descripcion ( False )  //tipo: nvarchar
 
                        
-             // IdUbicacion ( False )
+             // IdUbicacion ( False )  //tipo: int
 
                        
-             // userAudit ( False )
+             // userAudit ( False )  //tipo: nvarchar
 
                        
-             // fechaAlta ( False )
+             // fechaAlta ( False )  //tipo: datetime2
 
                        
-             // fechaBaja ( False )
+             // fechaBaja ( False )  //tipo: datetime2
 
           
            
@@ -1944,28 +1944,28 @@ namespace ADADB.Entities
        // HIST_Usuario
           
                        
-             // CodUsuario ( True )
+             // CodUsuario ( True )  //tipo: nvarchar
 
                        
-             // FechaHoraAudit ( True )
+             // FechaHoraAudit ( True )  //tipo: datetime
 
                        
-             // Nombre ( False )
+             // Nombre ( False )  //tipo: nvarchar
 
                        
-             // email ( False )
+             // email ( False )  //tipo: nvarchar
 
                        
-             // IdRol ( False )
+             // IdRol ( False )  //tipo: int
 
                        
-             // FechaAlta ( False )
+             // FechaAlta ( False )  //tipo: date
 
                        
-             // FechaBaja ( False )
+             // FechaBaja ( False )  //tipo: date
 
                        
-             // CodUsuarioAudit ( False )
+             // CodUsuarioAudit ( False )  //tipo: nvarchar
 
           
            
@@ -1973,28 +1973,28 @@ namespace ADADB.Entities
        // MarcasAutomaticas
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // CodEstrategia ( False )
+             // CodEstrategia ( False )  //tipo: nvarchar
 
                        
-             // CodMarca ( False )
+             // CodMarca ( False )  //tipo: nvarchar
 
                        
-             // EsAutomatico ( False )
+             // EsAutomatico ( False )  //tipo: bit
 
                        
-             // EsExcepcion ( False )
+             // EsExcepcion ( False )  //tipo: bit
 
                        
-             // userAudit ( False )
+             // userAudit ( False )  //tipo: nvarchar
 
                        
-             // fechaAlta ( False )
+             // fechaAlta ( False )  //tipo: datetime2
 
                        
-             // AplicaEstrategiasRepetidas ( False )
+             // AplicaEstrategiasRepetidas ( False )  //tipo: bit
 
           
            
@@ -2002,19 +2002,19 @@ namespace ADADB.Entities
        // ModeloGestion
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // CodModeloGestion ( False )
+             // CodModeloGestion ( False )  //tipo: nvarchar
 
                        
-             // Descripcion ( False )
+             // Descripcion ( False )  //tipo: nvarchar
 
                        
-             // userAudit ( False )
+             // userAudit ( False )  //tipo: nvarchar
 
                        
-             // fechaAlta ( False )
+             // fechaAlta ( False )  //tipo: datetime2
 
           
            
@@ -2022,13 +2022,13 @@ namespace ADADB.Entities
        // MsgValidacion
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // Validacion ( False )
+             // Validacion ( False )  //tipo: nvarchar
 
                        
-             // Mensaje ( False )
+             // Mensaje ( False )  //tipo: nvarchar
 
           
            
@@ -2036,19 +2036,19 @@ namespace ADADB.Entities
        // NivelBloqueo
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // CodNivelBlq ( False )
+             // CodNivelBlq ( False )  //tipo: int
 
                        
-             // Descripcion ( False )
+             // Descripcion ( False )  //tipo: nvarchar
 
                        
-             // FechAlta ( False )
+             // FechAlta ( False )  //tipo: datetime
 
                        
-             // CodUsuarioAudit ( False )
+             // CodUsuarioAudit ( False )  //tipo: nvarchar
 
           
            
@@ -2056,19 +2056,19 @@ namespace ADADB.Entities
        // PerimetroOperativo
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // CodPerimetro ( False )
+             // CodPerimetro ( False )  //tipo: nvarchar
 
                        
-             // Descripcion ( False )
+             // Descripcion ( False )  //tipo: nvarchar
 
                        
-             // userAudit ( False )
+             // userAudit ( False )  //tipo: nvarchar
 
                        
-             // fechaAlta ( False )
+             // fechaAlta ( False )  //tipo: datetime2
 
           
            
@@ -2076,16 +2076,16 @@ namespace ADADB.Entities
        // RelaUsuarioRol
           
                        
-             // IdRol ( True )
+             // IdRol ( True )  //tipo: int
 
                        
-             // CodUsuario ( True )
+             // CodUsuario ( True )  //tipo: varchar
 
                        
-             // FechaAlta ( False )
+             // FechaAlta ( False )  //tipo: date
 
                        
-             // CodUsuarioAudit ( False )
+             // CodUsuarioAudit ( False )  //tipo: varchar
 
           
            
@@ -2093,19 +2093,19 @@ namespace ADADB.Entities
        // Rol
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // CodRol ( False )
+             // CodRol ( False )  //tipo: varchar
 
                        
-             // Nombre ( False )
+             // Nombre ( False )  //tipo: varchar
 
                        
-             // FechaAlta ( False )
+             // FechaAlta ( False )  //tipo: date
 
                        
-             // CodUsuarioAudit ( False )
+             // CodUsuarioAudit ( False )  //tipo: varchar
 
           
            
@@ -2113,19 +2113,19 @@ namespace ADADB.Entities
        // ServicerComercial
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // CodServicer ( False )
+             // CodServicer ( False )  //tipo: nvarchar
 
                        
-             // Descripcion ( False )
+             // Descripcion ( False )  //tipo: nvarchar
 
                        
-             // userAudit ( False )
+             // userAudit ( False )  //tipo: nvarchar
 
                        
-             // fechaAlta ( False )
+             // fechaAlta ( False )  //tipo: datetime2
 
           
            
@@ -2133,19 +2133,19 @@ namespace ADADB.Entities
        // SubTipoPerimetro
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // Descripcion ( False )
+             // Descripcion ( False )  //tipo: nvarchar
 
                        
-             // IdTipoPerimetro ( False )
+             // IdTipoPerimetro ( False )  //tipo: int
 
                        
-             // FechaAlta ( False )
+             // FechaAlta ( False )  //tipo: datetime
 
                        
-             // UserAudit ( False )
+             // UserAudit ( False )  //tipo: nvarchar
 
           
            
@@ -2153,13 +2153,13 @@ namespace ADADB.Entities
        // TerritorialForzada
           
                        
-             // IdActivo ( True )
+             // IdActivo ( True )  //tipo: int
 
                        
-             // IdTerritorial ( False )
+             // IdTerritorial ( False )  //tipo: int
 
                        
-             // FechaAudit ( False )
+             // FechaAudit ( False )  //tipo: date
 
           
            
@@ -2167,22 +2167,22 @@ namespace ADADB.Entities
        // TerritorialUbicacion
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // CodTerritorialUbicacion ( False )
+             // CodTerritorialUbicacion ( False )  //tipo: nvarchar
 
                        
-             // Descripcion ( False )
+             // Descripcion ( False )  //tipo: nvarchar
 
                        
-             // userAudit ( False )
+             // userAudit ( False )  //tipo: nvarchar
 
                        
-             // fechaAlta ( False )
+             // fechaAlta ( False )  //tipo: datetime2
 
                        
-             // FechaHoraAudit ( False )
+             // FechaHoraAudit ( False )  //tipo: datetime
 
           
            
@@ -2190,19 +2190,19 @@ namespace ADADB.Entities
        // TipoPerimetro
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // Descripcion ( False )
+             // Descripcion ( False )  //tipo: nvarchar
 
                        
-             // FechaAlta ( False )
+             // FechaAlta ( False )  //tipo: datetime
 
                        
-             // UserAudit ( False )
+             // UserAudit ( False )  //tipo: nvarchar
 
                        
-             // FechaHoraAudit ( False )
+             // FechaHoraAudit ( False )  //tipo: datetime
 
           
            
@@ -2210,22 +2210,22 @@ namespace ADADB.Entities
        // UbicacionProvincia
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // CodProvincia ( False )
+             // CodProvincia ( False )  //tipo: nvarchar
 
                        
-             // Descripcion ( False )
+             // Descripcion ( False )  //tipo: nvarchar
 
                        
-             // IdUbicacion ( False )
+             // IdUbicacion ( False )  //tipo: int
 
                        
-             // userAudit ( False )
+             // userAudit ( False )  //tipo: nvarchar
 
                        
-             // fechaAlta ( False )
+             // fechaAlta ( False )  //tipo: datetime2
 
           
            
@@ -2233,22 +2233,22 @@ namespace ADADB.Entities
        // Usuario
           
                        
-             // Id ( True )
+             // Id ( True )  //tipo: int
 
                        
-             // CodUsuario ( False )
+             // CodUsuario ( False )  //tipo: nvarchar
 
                        
-             // Nombre ( False )
+             // Nombre ( False )  //tipo: varchar
 
                        
-             // email ( False )
+             // email ( False )  //tipo: nvarchar
 
                        
-             // FechaAlta ( False )
+             // FechaAlta ( False )  //tipo: date
 
                        
-             // CodUsuarioAudit ( False )
+             // CodUsuarioAudit ( False )  //tipo: varchar
 
           
            
