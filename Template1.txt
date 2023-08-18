@@ -7,7 +7,7 @@ ADADB
 
 
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Name:GetAssetMarcasByAssetType
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Name:GetAssetMarcasByAssetType
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/StoredProcedure[@Name='GetAssetMarcasByAssetType' and @Schema='est']
     StoredProcedure
     Schema:est
@@ -175,7 +175,7 @@ ADADB
     Schema:dbo
 
         
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   Name:log
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           Name:log
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='log' and @Schema='LOG']
     Table
     Schema:LOG
@@ -595,7 +595,91 @@ ADADB
     Schema:dbo
 
         
-           Name:TABLE_PRIVILEGES
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                   Name:consulta_AACC
+    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='consulta_AACC' and @Schema='asig']
+    View
+    Schema:asig
+
+        
+           Name:consulta_AAFF
+    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='consulta_AAFF' and @Schema='asig']
+    View
+    Schema:asig
+
+        
+           Name:consulta_AAII
+    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='consulta_AAII' and @Schema='asig']
+    View
+    Schema:asig
+
+        
+           Name:salida_ASIGNACION_AACC
+    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='salida_ASIGNACION_AACC' and @Schema='asig']
+    View
+    Schema:asig
+
+        
+           Name:salida_ASIGNACION_AAFF
+    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='salida_ASIGNACION_AAFF' and @Schema='asig']
+    View
+    Schema:asig
+
+        
+           Name:salida_ASIGNACION_AAII
+    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='salida_ASIGNACION_AAII' and @Schema='asig']
+    View
+    Schema:asig
+
+        
+           Name:salida_cargaPerimetro
+    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='salida_cargaPerimetro' and @Schema='marcas']
+    View
+    Schema:marcas
+
+        
+           Name:salida_Perimetro
+    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='salida_Perimetro' and @Schema='marcas']
+    View
+    Schema:marcas
+
+        
+           Name:salida_validacionPerimetro
+    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='salida_validacionPerimetro' and @Schema='marcas']
+    View
+    Schema:marcas
+
+        
+           Name:consulta_Estrategias
+    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='consulta_Estrategias' and @Schema='est']
+    View
+    Schema:est
+
+        
+           Name:CHECK_CONSTRAINTS
+    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='CHECK_CONSTRAINTS' and @Schema='INFORMATION_SCHEMA']
+    View
+    Schema:INFORMATION_SCHEMA
+
+        
+                                                                                                                                                               Name:TABLES
+    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='TABLES' and @Schema='INFORMATION_SCHEMA']
+    View
+    Schema:INFORMATION_SCHEMA
+
+        
+               Name:CONSTRAINT_TABLE_USAGE
+    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='CONSTRAINT_TABLE_USAGE' and @Schema='INFORMATION_SCHEMA']
+    View
+    Schema:INFORMATION_SCHEMA
+
+        
+                   Name:COLUMN_PRIVILEGES
+    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='COLUMN_PRIVILEGES' and @Schema='INFORMATION_SCHEMA']
+    View
+    Schema:INFORMATION_SCHEMA
+
+        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Name:TABLE_PRIVILEGES
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='TABLE_PRIVILEGES' and @Schema='INFORMATION_SCHEMA']
     View
     Schema:INFORMATION_SCHEMA
@@ -697,90 +781,6 @@ ADADB
     Schema:INFORMATION_SCHEMA
 
         
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Name:consulta_AACC
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='consulta_AACC' and @Schema='asig']
-    View
-    Schema:asig
-
-        
-           Name:consulta_AAFF
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='consulta_AAFF' and @Schema='asig']
-    View
-    Schema:asig
-
-        
-           Name:consulta_AAII
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='consulta_AAII' and @Schema='asig']
-    View
-    Schema:asig
-
-        
-           Name:salida_ASIGNACION_AACC
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='salida_ASIGNACION_AACC' and @Schema='asig']
-    View
-    Schema:asig
-
-        
-           Name:salida_ASIGNACION_AAFF
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='salida_ASIGNACION_AAFF' and @Schema='asig']
-    View
-    Schema:asig
-
-        
-           Name:salida_ASIGNACION_AAII
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='salida_ASIGNACION_AAII' and @Schema='asig']
-    View
-    Schema:asig
-
-        
-           Name:salida_cargaPerimetro
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='salida_cargaPerimetro' and @Schema='marcas']
-    View
-    Schema:marcas
-
-        
-           Name:salida_Perimetro
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='salida_Perimetro' and @Schema='marcas']
-    View
-    Schema:marcas
-
-        
-           Name:salida_validacionPerimetro
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='salida_validacionPerimetro' and @Schema='marcas']
-    View
-    Schema:marcas
-
-        
-           Name:consulta_Estrategias
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='consulta_Estrategias' and @Schema='est']
-    View
-    Schema:est
-
-        
-           Name:CHECK_CONSTRAINTS
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='CHECK_CONSTRAINTS' and @Schema='INFORMATION_SCHEMA']
-    View
-    Schema:INFORMATION_SCHEMA
-
-        
-                                                                                                                                                               Name:TABLES
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='TABLES' and @Schema='INFORMATION_SCHEMA']
-    View
-    Schema:INFORMATION_SCHEMA
-
-        
-               Name:CONSTRAINT_TABLE_USAGE
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='CONSTRAINT_TABLE_USAGE' and @Schema='INFORMATION_SCHEMA']
-    View
-    Schema:INFORMATION_SCHEMA
-
-        
-                   Name:COLUMN_PRIVILEGES
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='COLUMN_PRIVILEGES' and @Schema='INFORMATION_SCHEMA']
-    View
-    Schema:INFORMATION_SCHEMA
-
-        
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+                                                        
  1
  Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='HIST_AsignacionAAFF' and @Schema='asig']

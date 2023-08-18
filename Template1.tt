@@ -30,6 +30,7 @@
 <#@ import namespace="Microsoft.SqlServer.Management.Common" #>
 <#@ include file="MultipleOutputHelper.ttinclude" #> 
 <#@ include file="Dependencias.t4" #>
+<#@ include file="util.t4" #>
 
 <# 
    var manager = Manager.Create(Host, GenerationEnvironment);
@@ -53,5 +54,7 @@
     
 #>
 <#
-   GenerarMensajeDep();
+     GenerarMensajeDep();
+
+    //showDependencies();
 #>

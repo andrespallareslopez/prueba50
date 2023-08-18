@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<formulario>
+  <campo>
+    <descripcion>Uusuario</descripcion>
+    <tipo>string</tipo>
+    <validacion>
+      <regla>Obligatorio</regla>
+    </validacion>
+  </campo>
+  <campo>
+    <descripcion>Password</descripcion>
+    <validacion>
+      <regla>Obligatorio</regla>
+    </validacion>
+  </campo>
+</formulario>

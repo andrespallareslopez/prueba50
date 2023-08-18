@@ -1,0 +1,99 @@
+﻿<#@ Assembly Name="System.Core" #>
+<#@ Assembly Name="System.Windows.Forms" #>
+<#@ import namespace="System" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.IO" #>
+<#@ import namespace="System.Diagnostics" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Collections" #>
+<#@ import namespace="System.Collections.Generic" #> 
+<#@ assembly name="System.Xml" #>
+<#@ assembly name="System.Data" #>
+<#@ assembly name="System.Configuration" #>
+<#@ assembly name="Microsoft.SqlServer.ConnectionInfo" #>
+<#@ assembly name="Microsoft.SqlServer.Smo" #>
+<#@ assembly name="Microsoft.SqlServer.Management.Sdk.Sfc" #>
+
+<#@ import namespace="System.Data.SqlClient" #>
+<#@ import namespace="System.Configuration" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="Microsoft.SqlServer.Management.Smo" #>
+<#@ import namespace="Microsoft.SqlServer.Management.Common" #>
+<#@ import namespace="Microsoft.SqlServer.Management.Sdk.Sfc" #>
+<#+
+private string getConnectionString(){
+	
+	string appConfig = this.Host.ResolvePath("App.config");
+	if(!File.Exists(appConfig))
+	{
+	    Error("App.config not exists");
+	}
+	ExeConfigurationFileMap configFile = new ExeConfigurationFileMap();
+	configFile.ExeConfigFilename = appConfig;
+	var configuration = ConfigurationManager.OpenMappedExeConfiguration(configFile, ConfigurationUserLevel.None);
+	var connectionString = configuration.ConnectionStrings.ConnectionStrings["prueba"].ConnectionString;
+
+	return connectionString;
+}
+
+public List<string> getDependencies(string nombreTabla){
+
+	List<string> lista= new List<string>();
+	string connectionString = getConnectionString();
+
+    SqlConnection sqlConnection = new SqlConnection(connectionString);
+
+	string cadSql ="SELECT routine_name, routine_type FROM INFORMATION_SCHEMA.ROUTINES WHERE ROUTINE_DEFINITION LIKE '%" + nombreTabla + "%'";
+
+	sqlConnection.Open();
+	SqlCommand cmd = new SqlCommand(cadSql, sqlConnection);
+    SqlDataReader results = cmd.ExecuteReader();
+	
+	while (results.Read())
+     {
+       lista.Add(results["routine_name"].ToString());           
+     }
+
+
+
+	sqlConnection.Close();
+
+
+
+	return lista;
+}
+
+#>
+
+<#+ 
+void showDependencies(){
+
+	List<string> lista = getDependencies("Estrategia");
+
+#>
+
+   <#+ 
+     foreach(string el in lista){
+   #>
+
+    <#= el #>
+   <#+ } #>
+
+
+<#+ 
+}
+#>
+
+<#+ 
+
+public List<string> getEnumTable(){
+
+
+
+
+
+}
+
+
+
+#>
