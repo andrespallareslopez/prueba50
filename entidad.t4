@@ -37,6 +37,8 @@ var connectionString = configuration.ConnectionStrings.ConnectionStrings["prueba
 SqlConnection sqlConnection = new SqlConnection(connectionString);
 ServerConnection serverConnection = new ServerConnection(sqlConnection);
 Server server = new Server(serverConnection);
+var db = server.Databases[server.ConnectionContext.DatabaseName];
+
 var tables = server.Databases[server.ConnectionContext.DatabaseName].Tables;
 
 
@@ -58,6 +60,8 @@ namespace <#= server.ConnectionContext.DatabaseName #>.Entities
         
        // <#= tabla.Name #>
           
+          
+
           <#+ foreach(Column columna in tabla.Columns){ #>
              
              // <#= columna.Name #> ( <#= columna.InPrimaryKey   #> )  //tipo: <#= MapField(columna.DataType.ToString()) #>

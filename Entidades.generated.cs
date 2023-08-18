@@ -13,6 +13,8 @@ namespace ADADB.Entities
                    
        // AGRUPACIONES_BAJAS
           
+          
+
                        
              // ID_ACTIVO_SAREB ( False )  //tipo: decimal
 
@@ -42,6 +44,8 @@ namespace ADADB.Entities
                    
        // AGRUPACIONES_DM
           
+          
+
                        
              // ID_ACTIVO_SAREB ( False )  //tipo: decimal
 
@@ -137,6 +141,8 @@ namespace ADADB.Entities
                    
        // AGRUPACIONES_RELA
           
+          
+
                        
              // ID_AGRP_RELA ( False )  //tipo: decimal
 
@@ -172,6 +178,8 @@ namespace ADADB.Entities
                    
        // PV_JUICIO_EXPERTO
           
+          
+
                        
              // ID_ACTIVO_SAREB ( False )  //tipo: decimal
 
@@ -216,6 +224,8 @@ namespace ADADB.Entities
                    
        // PV_JUICIO_EXPERTO_PRO
           
+          
+
                        
              // ID_ACTIVO_SAREB ( False )  //tipo: decimal
 
@@ -245,6 +255,8 @@ namespace ADADB.Entities
                    
        // TBL_CARGAS_DM
           
+          
+
                        
              // COD_ORIGEN_INFO ( True )  //tipo: string
 
@@ -256,6 +268,8 @@ namespace ADADB.Entities
                    
        // asignacionAAFF
           
+          
+
                        
              // IdActivo ( True )  //tipo: int
 
@@ -291,6 +305,8 @@ namespace ADADB.Entities
                    
        // asignacionAAII
           
+          
+
                        
              // IdActivo ( True )  //tipo: int
 
@@ -326,6 +342,8 @@ namespace ADADB.Entities
                    
        // HIST_AsignacionAAFF
           
+          
+
                        
              // Id ( True )  //tipo: int
 
@@ -361,6 +379,8 @@ namespace ADADB.Entities
                    
        // HIST_AsignacionAAII
           
+          
+
                        
              // Id ( True )  //tipo: int
 
@@ -396,6 +416,8 @@ namespace ADADB.Entities
                    
        // SolCambio
           
+          
+
                        
              // Id ( True )  //tipo: decimal
 
@@ -434,6 +456,8 @@ namespace ADADB.Entities
                    
        // Validacion
           
+          
+
                        
              // IdPeticionCambio ( True )  //tipo: int
 
@@ -452,6 +476,8 @@ namespace ADADB.Entities
                    
        // EstrategiaAACC
           
+          
+
                        
              // IdActivo ( True )  //tipo: int
 
@@ -478,6 +504,8 @@ namespace ADADB.Entities
                    
        // EstrategiaAAFF
           
+          
+
                        
              // IdActivo ( True )  //tipo: int
 
@@ -504,6 +532,8 @@ namespace ADADB.Entities
                    
        // EstrategiaAAII
           
+          
+
                        
              // IdActivo ( True )  //tipo: int
 
@@ -530,6 +560,8 @@ namespace ADADB.Entities
                    
        // HIST_EstrategiaAACC
           
+          
+
                        
              // Id ( True )  //tipo: int
 
@@ -556,6 +588,8 @@ namespace ADADB.Entities
                    
        // HIST_EstrategiaAAFF
           
+          
+
                        
              // Id ( True )  //tipo: int
 
@@ -582,6 +616,8 @@ namespace ADADB.Entities
                    
        // HIST_EstrategiaAAII
           
+          
+
                        
              // Id ( True )  //tipo: int
 
@@ -608,6 +644,8 @@ namespace ADADB.Entities
                    
        // SolCambioEstrategia
           
+          
+
                        
              // Id ( True )  //tipo: decimal
 
@@ -634,6 +672,8 @@ namespace ADADB.Entities
                    
        // ValidacionEstrategia
           
+          
+
                        
              // IdCambioEstrategia ( True )  //tipo: int
 
@@ -651,6 +691,8 @@ namespace ADADB.Entities
                    
        // HIST_TipologiaGestionAACC
           
+          
+
                        
              // Id ( True )  //tipo: int
 
@@ -686,6 +728,8 @@ namespace ADADB.Entities
                    
        // HIST_TipologiaGestionAAII
           
+          
+
                        
              // Id ( True )  //tipo: int
 
@@ -721,6 +765,8 @@ namespace ADADB.Entities
                    
        // SolCambioTipologia
           
+          
+
                        
              // Id ( True )  //tipo: decimal
 
@@ -756,6 +802,8 @@ namespace ADADB.Entities
                    
        // TipologiaGestionAACC
           
+          
+
                        
              // IdActivo ( True )  //tipo: int
 
@@ -788,6 +836,8 @@ namespace ADADB.Entities
                    
        // TipologiaGestionAAII
           
+          
+
                        
              // IdActivo ( True )  //tipo: int
 
@@ -820,6 +870,8 @@ namespace ADADB.Entities
                    
        // ValidacionTipologiaGestion
           
+          
+
                        
              // IdCambioTipologiaGest ( True )  //tipo: int
 
@@ -837,6 +889,8 @@ namespace ADADB.Entities
                    
        // log
           
+          
+
                        
              // Id ( True )  //tipo: int
 
@@ -857,6 +911,8 @@ namespace ADADB.Entities
                    
        // ActivoMarca
           
+          
+
                        
              // IdActivo ( True )  //tipo: int
 
@@ -883,6 +939,8 @@ namespace ADADB.Entities
                    
        // CargaPerimetro
           
+          
+
                        
              // Id ( True )  //tipo: int
 
@@ -915,6 +973,8 @@ namespace ADADB.Entities
                    
        // HIST_ActivoMarca
           
+          
+
                        
              // Id ( True )  //tipo: int
 
@@ -947,6 +1007,8 @@ namespace ADADB.Entities
                    
        // Perimetro
           
+          
+
                        
              // Id ( True )  //tipo: int
 
@@ -1003,6 +1065,8 @@ namespace ADADB.Entities
                    
        // ValidacionPerimetro
           
+          
+
                        
              // IdActivo ( True )  //tipo: int
 
@@ -1017,6 +1081,8 @@ namespace ADADB.Entities
                    
        // DM_POSICION_AACC_TB
           
+          
+
                        
              // ID_ACTIVO_SAREB ( True )  //tipo: decimal
 
@@ -1184,6 +1250,8 @@ namespace ADADB.Entities
                    
        // DM_POSICION_AAFF_TB
           
+          
+
                        
              // ID_ACTIVO_SAREB ( True )  //tipo: decimal
 
@@ -1240,6 +1308,8 @@ namespace ADADB.Entities
                    
        // DM_POSICION_AAII_TB
           
+          
+
                        
              // ID_ACTIVO_SAREB ( True )  //tipo: decimal
 
@@ -1407,6 +1477,8 @@ namespace ADADB.Entities
                    
        // DM_POSICION_INTERVINIENTES_TB
           
+          
+
                        
              // ID_INTERV ( True )  //tipo: decimal
 
@@ -1520,6 +1592,8 @@ namespace ADADB.Entities
                    
        // DM_POSICION_SUELO_TB
           
+          
+
                        
              // ID_ACTIVO ( False )  //tipo: decimal
 
@@ -1537,6 +1611,8 @@ namespace ADADB.Entities
                    
        // DM_RELA_ACTIVO_GARANTIAS_TB
           
+          
+
                        
              // ID_ACTIVO ( True )  //tipo: decimal
 
@@ -1563,6 +1639,8 @@ namespace ADADB.Entities
                    
        // DM_RELA_ACTIVO_INTERVINIENTE_TB
           
+          
+
                        
              // ID_INTERV ( True )  //tipo: decimal
 
@@ -1601,6 +1679,8 @@ namespace ADADB.Entities
                    
        // PV_MAESTRO_CODIGOS
           
+          
+
                        
              // USO_AGRUPACION ( False )  //tipo: string
 
@@ -1627,6 +1707,8 @@ namespace ADADB.Entities
                    
        // AreaResponsable
           
+          
+
                        
              // Id ( True )  //tipo: int
 
@@ -1647,6 +1729,8 @@ namespace ADADB.Entities
                    
        // Estrategia
           
+          
+
                        
              // Id ( True )  //tipo: int
 
@@ -1682,6 +1766,8 @@ namespace ADADB.Entities
                    
        // HIST_AreaResponsable
           
+          
+
                        
              // Id ( True )  //tipo: int
 
@@ -1708,6 +1794,8 @@ namespace ADADB.Entities
                    
        // HIST_ModeloGestion
           
+          
+
                        
              // Id ( True )  //tipo: int
 
@@ -1734,6 +1822,8 @@ namespace ADADB.Entities
                    
        // HIST_NivelBloqueo
           
+          
+
                        
              // Id ( True )  //tipo: int
 
@@ -1760,6 +1850,8 @@ namespace ADADB.Entities
                    
        // HIST_Perimetro
           
+          
+
                        
              // Id ( True )  //tipo: int
 
@@ -1810,6 +1902,8 @@ namespace ADADB.Entities
                    
        // HIST_PerimetroOperativo
           
+          
+
                        
              // Id ( True )  //tipo: int
 
@@ -1836,6 +1930,8 @@ namespace ADADB.Entities
                    
        // HIST_ServicerComercial
           
+          
+
                        
              // Id ( True )  //tipo: int
 
@@ -1862,6 +1958,8 @@ namespace ADADB.Entities
                    
        // HIST_subtipoPerimetro
           
+          
+
                        
              // Id ( True )  //tipo: int
 
@@ -1888,6 +1986,8 @@ namespace ADADB.Entities
                    
        // HIST_TerritorialUbicacion
           
+          
+
                        
              // Id ( True )  //tipo: int
 
@@ -1914,6 +2014,8 @@ namespace ADADB.Entities
                    
        // HIST_UbicacionProvincia
           
+          
+
                        
              // Id ( True )  //tipo: int
 
@@ -1943,6 +2045,8 @@ namespace ADADB.Entities
                    
        // HIST_Usuario
           
+          
+
                        
              // CodUsuario ( True )  //tipo: string
 
@@ -1972,6 +2076,8 @@ namespace ADADB.Entities
                    
        // MarcasAutomaticas
           
+          
+
                        
              // Id ( True )  //tipo: int
 
@@ -2001,6 +2107,8 @@ namespace ADADB.Entities
                    
        // ModeloGestion
           
+          
+
                        
              // Id ( True )  //tipo: int
 
@@ -2021,6 +2129,8 @@ namespace ADADB.Entities
                    
        // MsgValidacion
           
+          
+
                        
              // Id ( True )  //tipo: int
 
@@ -2035,6 +2145,8 @@ namespace ADADB.Entities
                    
        // NivelBloqueo
           
+          
+
                        
              // Id ( True )  //tipo: int
 
@@ -2055,6 +2167,8 @@ namespace ADADB.Entities
                    
        // PerimetroOperativo
           
+          
+
                        
              // Id ( True )  //tipo: int
 
@@ -2075,6 +2189,8 @@ namespace ADADB.Entities
                    
        // RelaUsuarioRol
           
+          
+
                        
              // IdRol ( True )  //tipo: int
 
@@ -2092,6 +2208,8 @@ namespace ADADB.Entities
                    
        // Rol
           
+          
+
                        
              // Id ( True )  //tipo: int
 
@@ -2112,6 +2230,8 @@ namespace ADADB.Entities
                    
        // ServicerComercial
           
+          
+
                        
              // Id ( True )  //tipo: int
 
@@ -2132,6 +2252,8 @@ namespace ADADB.Entities
                    
        // SubTipoPerimetro
           
+          
+
                        
              // Id ( True )  //tipo: int
 
@@ -2152,6 +2274,8 @@ namespace ADADB.Entities
                    
        // TerritorialForzada
           
+          
+
                        
              // IdActivo ( True )  //tipo: int
 
@@ -2166,6 +2290,8 @@ namespace ADADB.Entities
                    
        // TerritorialUbicacion
           
+          
+
                        
              // Id ( True )  //tipo: int
 
@@ -2189,6 +2315,8 @@ namespace ADADB.Entities
                    
        // TipoPerimetro
           
+          
+
                        
              // Id ( True )  //tipo: int
 
@@ -2209,6 +2337,8 @@ namespace ADADB.Entities
                    
        // UbicacionProvincia
           
+          
+
                        
              // Id ( True )  //tipo: int
 
@@ -2232,6 +2362,8 @@ namespace ADADB.Entities
                    
        // Usuario
           
+          
+
                        
              // Id ( True )  //tipo: int
 

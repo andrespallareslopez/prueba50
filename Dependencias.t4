@@ -1,0 +1,100 @@
+﻿<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ assembly name="System.Xml" #>
+<#@ assembly name="System.IO" #>
+<#@ assembly name="System.Data" #>
+<#@ assembly name="System.Configuration" #>
+<#@ assembly name="Microsoft.SqlServer.ConnectionInfo" #>
+<#@ assembly name="Microsoft.SqlServer.Smo" #>
+<#@ assembly name="Microsoft.SqlServer.Management.Sdk.Sfc" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.IO" #>
+<#@ import namespace="System.Data" #>
+<#@ import namespace="System.Data.SqlClient" #>
+<#@ import namespace="System.Configuration" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="Microsoft.SqlServer.Management.Smo" #>
+<#@ import namespace="Microsoft.SqlServer.Management.Common" #>
+<#@ import namespace="Microsoft.SqlServer.Management.Sdk.Sfc" #>
+
+
+
+
+<#+ 
+void GenerarMensajeDep()
+{
+string appConfig = this.Host.ResolvePath("App.config");
+if(!File.Exists(appConfig))
+{
+	Error("App.config not exists");
+}
+ExeConfigurationFileMap configFile = new ExeConfigurationFileMap();
+configFile.ExeConfigFilename = appConfig;
+var configuration = ConfigurationManager.OpenMappedExeConfiguration(configFile, ConfigurationUserLevel.None);
+var connectionString = configuration.ConnectionStrings.ConnectionStrings["prueba"].ConnectionString;
+
+SqlConnection sqlConnection = new SqlConnection(connectionString);
+ServerConnection serverConnection = new ServerConnection(sqlConnection);
+Server server = new Server(serverConnection);
+var db = server.Databases[server.ConnectionContext.DatabaseName];
+
+//var tables = server.Databases[server.ConnectionContext.DatabaseName].Tables;
+
+string ServerName = Environment.MachineName;
+
+var Elementos = db.EnumObjects();
+
+
+var rows = Elementos.Select();
+
+
+
+  var SelectedUrn =new UrnCollection();
+#>
+
+<#= connectionString #>
+
+<#= ServerName #>
+
+<#= db.Name #>
+
+
+
+ <#+       
+        foreach( DataRow fila in rows){
+ #>
+   <#+ if (fila["Schema"].ToString()!= "sys" && fila["Schema"].ToString()!= "" && fila["Schema"].ToString()!= "MessageType" && fila["Schema"].ToString()!= "DatabaseRole" ){ #>
+    Name:<#= fila["Name"].ToString() #>
+    Urn:<#= fila["Urn"].ToString() #>
+    <#= fila["DatabaseObjectTypes"].ToString() #>
+    Schema:<#= fila["Schema"].ToString() #>
+
+    <#+ 
+     if (fila["DatabaseObjectTypes"].ToString()=="Table" && fila["Name"].ToString()=="HIST_AsignacionAAFF") {
+      SelectedUrn.Add(new Urn(fila["Urn"].ToString()));
+     }
+    #>
+    
+   <#+ } #>
+ <#+ 
+ }
+ #>
+
+ <#= SelectedUrn.Count() #>
+ <#= SelectedUrn[0].Value #>
+<#+ 
+  
+  
+  //var DepWalk = new DependencyWalker(server);
+  
+  //var DepTree = DepWalk.DiscoverDependencies(SelectedUrn, true);
+  //var DepColl = DepWalk.WalkDependencies(DepTree);
+  //SelectedUrn.Clear();
+#>
+
+<#+
+}
+#>
