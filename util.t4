@@ -88,12 +88,54 @@ void showDependencies(){
 
 public List<string> getEnumTable(){
 
+	
+	List<string> lista= new List<string>();
+	string connectionString = getConnectionString();
 
+    SqlConnection sqlConnection = new SqlConnection(connectionString);
+	ServerConnection serverConnection = new ServerConnection(sqlConnection);
+		Server server = new Server(serverConnection);
+		var db = server.Databases[server.ConnectionContext.DatabaseName];
 
+		//var tables = server.Databases[server.ConnectionContext.DatabaseName].Tables;
 
+		string ServerName = Environment.MachineName;
 
+		var Elementos = db.EnumObjects();
+		var rows = Elementos.Select();
+	      foreach( DataRow fila in rows){
+              if (fila["Schema"].ToString()!= "sys" && 
+			      fila["Schema"].ToString()!= "" && 
+				  fila["Schema"].ToString()!= "MessageType" && 
+				  fila["Schema"].ToString()!= "DatabaseRole" &&
+				  fila["Schema"].ToString()!="INFORMATION_SCHEMA"){
+				  if (fila["DatabaseObjectTypes"].ToString()=="Table"){
+					  lista.Add(fila["Name"].ToString());
+                  }
+              }
+          }
+	return lista;
 }
 
 
+#>
+
+<#+  
+void showEnumTable(){
+
+	List<string> lista = getEnumTable();
 
 #>
+
+   <#+ 
+     foreach(string el in lista){
+   #>
+
+    <#= el #>
+   <#+ } #>
+
+
+<#+ 
+}
+#>
+

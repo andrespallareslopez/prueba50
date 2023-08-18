@@ -7,780 +7,760 @@ ADADB
 
 
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Name:GetAssetMarcasByAssetType
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+    Name:GetAssetMarcasByAssetType
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/StoredProcedure[@Name='GetAssetMarcasByAssetType' and @Schema='est']
     StoredProcedure
     Schema:est
 
         
-           Name:sp_maptodtostrageties
+       
+    Name:sp_maptodtostrageties
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/StoredProcedure[@Name='sp_maptodtostrageties' and @Schema='dbo']
     StoredProcedure
     Schema:dbo
 
         
-           Name:sp_agrupaciones
+       
+    Name:sp_agrupaciones
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/StoredProcedure[@Name='sp_agrupaciones' and @Schema='agrp']
     StoredProcedure
     Schema:agrp
 
         
-           Name:sp_je_eliminar
+       
+    Name:sp_je_eliminar
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/StoredProcedure[@Name='sp_je_eliminar' and @Schema='agrp']
     StoredProcedure
     Schema:agrp
 
         
-           Name:sp_je_modif_raiz
+       
+    Name:sp_je_modif_raiz
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/StoredProcedure[@Name='sp_je_modif_raiz' and @Schema='agrp']
     StoredProcedure
     Schema:agrp
 
         
-           Name:sp_je_modif_sub
+       
+    Name:sp_je_modif_sub
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/StoredProcedure[@Name='sp_je_modif_sub' and @Schema='agrp']
     StoredProcedure
     Schema:agrp
 
         
-           Name:sp_je_modif_tipo
+       
+    Name:sp_je_modif_tipo
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/StoredProcedure[@Name='sp_je_modif_tipo' and @Schema='agrp']
     StoredProcedure
     Schema:agrp
 
         
-           Name:sp_je_nuevo_codigo
+       
+    Name:sp_je_nuevo_codigo
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/StoredProcedure[@Name='sp_je_nuevo_codigo' and @Schema='agrp']
     StoredProcedure
     Schema:agrp
 
         
-           Name:sp_je_nuevo_subgrupo
+       
+    Name:sp_je_nuevo_subgrupo
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/StoredProcedure[@Name='sp_je_nuevo_subgrupo' and @Schema='agrp']
     StoredProcedure
     Schema:agrp
 
         
-           Name:sp_carga_asignaciones
+       
+    Name:sp_carga_asignaciones
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/StoredProcedure[@Name='sp_carga_asignaciones' and @Schema='asig']
     StoredProcedure
     Schema:asig
 
         
-           Name:sp_check_future_asignaciones
+       
+    Name:sp_check_future_asignaciones
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/StoredProcedure[@Name='sp_check_future_asignaciones' and @Schema='asig']
     StoredProcedure
     Schema:asig
 
         
-           Name:sp_commit_asignaciones
+       
+    Name:sp_commit_asignaciones
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/StoredProcedure[@Name='sp_commit_asignaciones' and @Schema='asig']
     StoredProcedure
     Schema:asig
 
         
-           Name:sp_modif_asignaciones
+       
+    Name:sp_modif_asignaciones
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/StoredProcedure[@Name='sp_modif_asignaciones' and @Schema='asig']
     StoredProcedure
     Schema:asig
 
         
-           Name:LOAD_EXECUTE_SCRIPT
+       
+    Name:LOAD_EXECUTE_SCRIPT
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/StoredProcedure[@Name='LOAD_EXECUTE_SCRIPT' and @Schema='dbo']
     StoredProcedure
     Schema:dbo
 
         
-           Name:sp_carga_estrategias
+       
+    Name:sp_carga_estrategias
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/StoredProcedure[@Name='sp_carga_estrategias' and @Schema='est']
     StoredProcedure
     Schema:est
 
         
-           Name:sp_check_future_estrategias
+       
+    Name:sp_check_future_estrategias
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/StoredProcedure[@Name='sp_check_future_estrategias' and @Schema='est']
     StoredProcedure
     Schema:est
 
         
-           Name:sp_commit_estrategias
+       
+    Name:sp_commit_estrategias
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/StoredProcedure[@Name='sp_commit_estrategias' and @Schema='est']
     StoredProcedure
     Schema:est
 
         
-           Name:sp_modif_estrategias
+       
+    Name:sp_modif_estrategias
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/StoredProcedure[@Name='sp_modif_estrategias' and @Schema='est']
     StoredProcedure
     Schema:est
 
         
-           Name:sp_carga_marcas
+       
+    Name:sp_carga_marcas
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/StoredProcedure[@Name='sp_carga_marcas' and @Schema='marcas']
     StoredProcedure
     Schema:marcas
 
         
-           Name:sp_commit_marcas
+       
+    Name:sp_commit_marcas
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/StoredProcedure[@Name='sp_commit_marcas' and @Schema='marcas']
     StoredProcedure
     Schema:marcas
 
         
-           Name:sp_modif_marcas
+       
+    Name:sp_modif_marcas
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/StoredProcedure[@Name='sp_modif_marcas' and @Schema='marcas']
     StoredProcedure
     Schema:marcas
 
         
-           Name:sp_upgraddiagrams
+       
+    Name:sp_upgraddiagrams
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/StoredProcedure[@Name='sp_upgraddiagrams' and @Schema='dbo']
     StoredProcedure
     Schema:dbo
 
         
-           Name:sp_helpdiagrams
+       
+    Name:sp_helpdiagrams
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/StoredProcedure[@Name='sp_helpdiagrams' and @Schema='dbo']
     StoredProcedure
     Schema:dbo
 
         
-           Name:sp_helpdiagramdefinition
+       
+    Name:sp_helpdiagramdefinition
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/StoredProcedure[@Name='sp_helpdiagramdefinition' and @Schema='dbo']
     StoredProcedure
     Schema:dbo
 
         
-           Name:sp_creatediagram
+       
+    Name:sp_creatediagram
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/StoredProcedure[@Name='sp_creatediagram' and @Schema='dbo']
     StoredProcedure
     Schema:dbo
 
         
-           Name:sp_renamediagram
+       
+    Name:sp_renamediagram
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/StoredProcedure[@Name='sp_renamediagram' and @Schema='dbo']
     StoredProcedure
     Schema:dbo
 
         
-           Name:sp_alterdiagram
+       
+    Name:sp_alterdiagram
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/StoredProcedure[@Name='sp_alterdiagram' and @Schema='dbo']
     StoredProcedure
     Schema:dbo
 
         
-           Name:sp_dropdiagram
+       
+    Name:sp_dropdiagram
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/StoredProcedure[@Name='sp_dropdiagram' and @Schema='dbo']
     StoredProcedure
     Schema:dbo
 
         
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           Name:log
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+    Name:log
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='log' and @Schema='LOG']
     Table
     Schema:LOG
 
         
-           Name:HIST_ActivoMarca
+       
+    Name:HIST_ActivoMarca
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='HIST_ActivoMarca' and @Schema='marcas']
     Table
     Schema:marcas
 
         
-           Name:ValidacionPerimetro
+       
+    Name:ValidacionPerimetro
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='ValidacionPerimetro' and @Schema='marcas']
     Table
     Schema:marcas
 
         
-           Name:DM_POSICION_SUELO_TB
+       
+    Name:DM_POSICION_SUELO_TB
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='DM_POSICION_SUELO_TB' and @Schema='mstr']
     Table
     Schema:mstr
 
         
-           Name:TipologiaGestionAAII
+       
+    Name:TipologiaGestionAAII
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='TipologiaGestionAAII' and @Schema='gest']
     Table
     Schema:gest
 
         
-           Name:DM_RELA_ACTIVO_GARANTIAS_TB
+       
+    Name:DM_RELA_ACTIVO_GARANTIAS_TB
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='DM_RELA_ACTIVO_GARANTIAS_TB' and @Schema='mstr']
     Table
     Schema:mstr
 
         
-           Name:TipologiaGestionAACC
+       
+    Name:TipologiaGestionAACC
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='TipologiaGestionAACC' and @Schema='gest']
     Table
     Schema:gest
 
         
-           Name:PV_MAESTRO_CODIGOS
+       
+    Name:PV_MAESTRO_CODIGOS
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='PV_MAESTRO_CODIGOS' and @Schema='mstr']
     Table
     Schema:mstr
 
         
-           Name:Estrategia
+       
+    Name:Estrategia
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='Estrategia' and @Schema='param']
     Table
     Schema:param
 
         
-           Name:HIST_TipologiaGestionAAII
+       
+    Name:HIST_TipologiaGestionAAII
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='HIST_TipologiaGestionAAII' and @Schema='gest']
     Table
     Schema:gest
 
         
-           Name:HIST_AreaResponsable
+       
+    Name:HIST_AreaResponsable
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='HIST_AreaResponsable' and @Schema='param']
     Table
     Schema:param
 
         
-           Name:HIST_TipologiaGestionAACC
+       
+    Name:HIST_TipologiaGestionAACC
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='HIST_TipologiaGestionAACC' and @Schema='gest']
     Table
     Schema:gest
 
         
-           Name:HIST_ModeloGestion
+       
+    Name:HIST_ModeloGestion
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='HIST_ModeloGestion' and @Schema='param']
     Table
     Schema:param
 
         
-           Name:HIST_NivelBloqueo
+       
+    Name:HIST_NivelBloqueo
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='HIST_NivelBloqueo' and @Schema='param']
     Table
     Schema:param
 
         
-           Name:SolCambioTipologia
+       
+    Name:SolCambioTipologia
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='SolCambioTipologia' and @Schema='gest']
     Table
     Schema:gest
 
         
-           Name:HIST_Perimetro
+       
+    Name:HIST_Perimetro
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='HIST_Perimetro' and @Schema='param']
     Table
     Schema:param
 
         
-           Name:ValidacionTipologiaGestion
+       
+    Name:ValidacionTipologiaGestion
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='ValidacionTipologiaGestion' and @Schema='gest']
     Table
     Schema:gest
 
         
-           Name:HIST_PerimetroOperativo
+       
+    Name:HIST_PerimetroOperativo
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='HIST_PerimetroOperativo' and @Schema='param']
     Table
     Schema:param
 
         
-           Name:HIST_ServicerComercial
+       
+    Name:HIST_ServicerComercial
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='HIST_ServicerComercial' and @Schema='param']
     Table
     Schema:param
 
         
-           Name:HIST_subtipoPerimetro
+       
+    Name:HIST_subtipoPerimetro
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='HIST_subtipoPerimetro' and @Schema='param']
     Table
     Schema:param
 
         
-           Name:HIST_TerritorialUbicacion
+       
+    Name:HIST_TerritorialUbicacion
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='HIST_TerritorialUbicacion' and @Schema='param']
     Table
     Schema:param
 
         
-           Name:HIST_UbicacionProvincia
+       
+    Name:HIST_UbicacionProvincia
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='HIST_UbicacionProvincia' and @Schema='param']
     Table
     Schema:param
 
         
-           Name:HIST_Usuario
+       
+    Name:HIST_Usuario
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='HIST_Usuario' and @Schema='param']
     Table
     Schema:param
 
         
-           Name:MsgValidacion
+       
+    Name:MsgValidacion
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='MsgValidacion' and @Schema='param']
     Table
     Schema:param
 
         
-           Name:RelaUsuarioRol
+       
+    Name:RelaUsuarioRol
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='RelaUsuarioRol' and @Schema='param']
     Table
     Schema:param
 
         
-           Name:Rol
+       
+    Name:Rol
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='Rol' and @Schema='param']
     Table
     Schema:param
 
         
-           Name:TerritorialForzada
+       
+    Name:TerritorialForzada
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='TerritorialForzada' and @Schema='param']
     Table
     Schema:param
 
         
-           Name:Usuario
+       
+    Name:Usuario
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='Usuario' and @Schema='param']
     Table
     Schema:param
 
         
-           Name:NivelBloqueo
+       
+    Name:NivelBloqueo
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='NivelBloqueo' and @Schema='param']
     Table
     Schema:param
 
         
-           Name:TerritorialUbicacion
+       
+    Name:TerritorialUbicacion
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='TerritorialUbicacion' and @Schema='param']
     Table
     Schema:param
 
         
-           Name:UbicacionProvincia
+       
+    Name:UbicacionProvincia
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='UbicacionProvincia' and @Schema='param']
     Table
     Schema:param
 
         
-           Name:ActivoMarca
+       
+    Name:ActivoMarca
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='ActivoMarca' and @Schema='marcas']
     Table
     Schema:marcas
 
         
-           Name:Perimetro
+       
+    Name:Perimetro
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='Perimetro' and @Schema='marcas']
     Table
     Schema:marcas
 
         
-           Name:DM_POSICION_AACC_TB
+       
+    Name:DM_POSICION_AACC_TB
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='DM_POSICION_AACC_TB' and @Schema='mstr']
     Table
     Schema:mstr
 
         
-           Name:ModeloGestion
+       
+    Name:ModeloGestion
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='ModeloGestion' and @Schema='param']
     Table
     Schema:param
 
         
-           Name:PerimetroOperativo
+       
+    Name:PerimetroOperativo
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='PerimetroOperativo' and @Schema='param']
     Table
     Schema:param
 
         
-           Name:ServicerComercial
+       
+    Name:ServicerComercial
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='ServicerComercial' and @Schema='param']
     Table
     Schema:param
 
         
-           Name:asignacionAAFF
+       
+    Name:asignacionAAFF
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='asignacionAAFF' and @Schema='asig']
     Table
     Schema:asig
 
         
-           Name:DM_POSICION_AAFF_TB
+       
+    Name:DM_POSICION_AAFF_TB
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='DM_POSICION_AAFF_TB' and @Schema='mstr']
     Table
     Schema:mstr
 
         
-           Name:DM_POSICION_INTERVINIENTES_TB
+       
+    Name:DM_POSICION_INTERVINIENTES_TB
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='DM_POSICION_INTERVINIENTES_TB' and @Schema='mstr']
     Table
     Schema:mstr
 
         
-           Name:DM_RELA_ACTIVO_INTERVINIENTE_TB
+       
+    Name:DM_RELA_ACTIVO_INTERVINIENTE_TB
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='DM_RELA_ACTIVO_INTERVINIENTE_TB' and @Schema='mstr']
     Table
     Schema:mstr
 
         
-           Name:asignacionAAII
+       
+    Name:asignacionAAII
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='asignacionAAII' and @Schema='asig']
     Table
     Schema:asig
 
         
-           Name:DM_POSICION_AAII_TB
+       
+    Name:DM_POSICION_AAII_TB
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='DM_POSICION_AAII_TB' and @Schema='mstr']
     Table
     Schema:mstr
 
         
-           Name:CargaPerimetro
+       
+    Name:CargaPerimetro
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='CargaPerimetro' and @Schema='marcas']
     Table
     Schema:marcas
 
         
-           Name:SubTipoPerimetro
+       
+    Name:SubTipoPerimetro
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='SubTipoPerimetro' and @Schema='param']
     Table
     Schema:param
 
         
-           Name:TipoPerimetro
+       
+    Name:TipoPerimetro
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='TipoPerimetro' and @Schema='param']
     Table
     Schema:param
 
         
-           Name:AreaResponsable
+       
+    Name:AreaResponsable
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='AreaResponsable' and @Schema='param']
     Table
     Schema:param
 
         
-           Name:AGRUPACIONES_BAJAS
+       
+    Name:AGRUPACIONES_BAJAS
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='AGRUPACIONES_BAJAS' and @Schema='agrp']
     Table
     Schema:agrp
 
         
-           Name:AGRUPACIONES_DM
+       
+    Name:AGRUPACIONES_DM
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='AGRUPACIONES_DM' and @Schema='agrp']
     Table
     Schema:agrp
 
         
-           Name:AGRUPACIONES_RELA
+       
+    Name:AGRUPACIONES_RELA
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='AGRUPACIONES_RELA' and @Schema='agrp']
     Table
     Schema:agrp
 
         
-           Name:PV_JUICIO_EXPERTO
+       
+    Name:PV_JUICIO_EXPERTO
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='PV_JUICIO_EXPERTO' and @Schema='agrp']
     Table
     Schema:agrp
 
         
-           Name:MarcasAutomaticas
+       
+    Name:MarcasAutomaticas
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='MarcasAutomaticas' and @Schema='param']
     Table
     Schema:param
 
         
-           Name:PV_JUICIO_EXPERTO_PRO
+       
+    Name:PV_JUICIO_EXPERTO_PRO
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='PV_JUICIO_EXPERTO_PRO' and @Schema='agrp']
     Table
     Schema:agrp
 
         
-           Name:TBL_CARGAS_DM
+       
+    Name:TBL_CARGAS_DM
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='TBL_CARGAS_DM' and @Schema='agrp']
     Table
     Schema:agrp
 
         
-           Name:HIST_AsignacionAAFF
+       
+    Name:HIST_AsignacionAAFF
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='HIST_AsignacionAAFF' and @Schema='asig']
     Table
     Schema:asig
 
         
-           Name:HIST_AsignacionAAII
+       
+    Name:HIST_AsignacionAAII
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='HIST_AsignacionAAII' and @Schema='asig']
     Table
     Schema:asig
 
         
-           Name:SolCambio
+       
+    Name:SolCambio
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='SolCambio' and @Schema='asig']
     Table
     Schema:asig
 
         
-           Name:Validacion
+       
+    Name:Validacion
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='Validacion' and @Schema='asig']
     Table
     Schema:asig
 
         
-           Name:EstrategiaAACC
+       
+    Name:EstrategiaAACC
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='EstrategiaAACC' and @Schema='est']
     Table
     Schema:est
 
         
-           Name:EstrategiaAAFF
+       
+    Name:EstrategiaAAFF
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='EstrategiaAAFF' and @Schema='est']
     Table
     Schema:est
 
         
-           Name:EstrategiaAAII
+       
+    Name:EstrategiaAAII
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='EstrategiaAAII' and @Schema='est']
     Table
     Schema:est
 
         
-           Name:HIST_EstrategiaAACC
+       
+    Name:HIST_EstrategiaAACC
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='HIST_EstrategiaAACC' and @Schema='est']
     Table
     Schema:est
 
         
-           Name:sysdiagrams
+       
+    Name:sysdiagrams
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='sysdiagrams' and @Schema='dbo']
     Table
     Schema:dbo
 
         
-           Name:HIST_EstrategiaAAFF
+       
+    Name:HIST_EstrategiaAAFF
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='HIST_EstrategiaAAFF' and @Schema='est']
     Table
     Schema:est
 
         
-           Name:HIST_EstrategiaAAII
+       
+    Name:HIST_EstrategiaAAII
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='HIST_EstrategiaAAII' and @Schema='est']
     Table
     Schema:est
 
         
-           Name:SolCambioEstrategia
+       
+    Name:SolCambioEstrategia
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='SolCambioEstrategia' and @Schema='est']
     Table
     Schema:est
 
         
-           Name:ValidacionEstrategia
+       
+    Name:ValidacionEstrategia
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='ValidacionEstrategia' and @Schema='est']
     Table
     Schema:est
 
         
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   Name:fn_diagramobjects
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+    Name:fn_diagramobjects
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/UserDefinedFunction[@Name='fn_diagramobjects' and @Schema='dbo']
     UserDefinedFunction
     Schema:dbo
 
         
-           Name:SplitString
+       
+    Name:SplitString
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/UserDefinedFunction[@Name='SplitString' and @Schema='dbo']
     UserDefinedFunction
     Schema:dbo
 
         
-           Name:AssetsId
+       
+    Name:AssetsId
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/UserDefinedTableType[@Name='AssetsId' and @Schema='dbo']
     UserDefinedTableTypes
     Schema:dbo
 
         
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                   Name:consulta_AACC
+                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+    Name:consulta_AACC
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='consulta_AACC' and @Schema='asig']
     View
     Schema:asig
 
         
-           Name:consulta_AAFF
+       
+    Name:consulta_AAFF
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='consulta_AAFF' and @Schema='asig']
     View
     Schema:asig
 
         
-           Name:consulta_AAII
+       
+    Name:consulta_AAII
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='consulta_AAII' and @Schema='asig']
     View
     Schema:asig
 
         
-           Name:salida_ASIGNACION_AACC
+       
+    Name:salida_ASIGNACION_AACC
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='salida_ASIGNACION_AACC' and @Schema='asig']
     View
     Schema:asig
 
         
-           Name:salida_ASIGNACION_AAFF
+       
+    Name:salida_ASIGNACION_AAFF
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='salida_ASIGNACION_AAFF' and @Schema='asig']
     View
     Schema:asig
 
         
-           Name:salida_ASIGNACION_AAII
+       
+    Name:salida_ASIGNACION_AAII
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='salida_ASIGNACION_AAII' and @Schema='asig']
     View
     Schema:asig
 
         
-           Name:salida_cargaPerimetro
+       
+    Name:salida_cargaPerimetro
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='salida_cargaPerimetro' and @Schema='marcas']
     View
     Schema:marcas
 
         
-           Name:salida_Perimetro
+       
+    Name:salida_Perimetro
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='salida_Perimetro' and @Schema='marcas']
     View
     Schema:marcas
 
         
-           Name:salida_validacionPerimetro
+       
+    Name:salida_validacionPerimetro
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='salida_validacionPerimetro' and @Schema='marcas']
     View
     Schema:marcas
 
         
-           Name:consulta_Estrategias
+       
+    Name:consulta_Estrategias
     Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='consulta_Estrategias' and @Schema='est']
     View
     Schema:est
 
         
-           Name:CHECK_CONSTRAINTS
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='CHECK_CONSTRAINTS' and @Schema='INFORMATION_SCHEMA']
-    View
-    Schema:INFORMATION_SCHEMA
-
-        
-                                                                                                                                                               Name:TABLES
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='TABLES' and @Schema='INFORMATION_SCHEMA']
-    View
-    Schema:INFORMATION_SCHEMA
-
-        
-               Name:CONSTRAINT_TABLE_USAGE
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='CONSTRAINT_TABLE_USAGE' and @Schema='INFORMATION_SCHEMA']
-    View
-    Schema:INFORMATION_SCHEMA
-
-        
-                   Name:COLUMN_PRIVILEGES
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='COLUMN_PRIVILEGES' and @Schema='INFORMATION_SCHEMA']
-    View
-    Schema:INFORMATION_SCHEMA
-
-        
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Name:TABLE_PRIVILEGES
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='TABLE_PRIVILEGES' and @Schema='INFORMATION_SCHEMA']
-    View
-    Schema:INFORMATION_SCHEMA
-
-        
-                                                               Name:DOMAINS
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='DOMAINS' and @Schema='INFORMATION_SCHEMA']
-    View
-    Schema:INFORMATION_SCHEMA
-
-        
-                                               Name:SCHEMATA
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='SCHEMATA' and @Schema='INFORMATION_SCHEMA']
-    View
-    Schema:INFORMATION_SCHEMA
-
-        
-           Name:ROUTINE_COLUMNS
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='ROUTINE_COLUMNS' and @Schema='INFORMATION_SCHEMA']
-    View
-    Schema:INFORMATION_SCHEMA
-
-        
-                                                                                               Name:COLUMNS
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='COLUMNS' and @Schema='INFORMATION_SCHEMA']
-    View
-    Schema:INFORMATION_SCHEMA
-
-        
-                                                                                       Name:TABLE_CONSTRAINTS
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='TABLE_CONSTRAINTS' and @Schema='INFORMATION_SCHEMA']
-    View
-    Schema:INFORMATION_SCHEMA
-
-        
-                   Name:KEY_COLUMN_USAGE
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='KEY_COLUMN_USAGE' and @Schema='INFORMATION_SCHEMA']
-    View
-    Schema:INFORMATION_SCHEMA
-
-        
-                                           Name:VIEWS
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='VIEWS' and @Schema='INFORMATION_SCHEMA']
-    View
-    Schema:INFORMATION_SCHEMA
-
-        
-                               Name:VIEW_COLUMN_USAGE
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='VIEW_COLUMN_USAGE' and @Schema='INFORMATION_SCHEMA']
-    View
-    Schema:INFORMATION_SCHEMA
-
-        
-                                   Name:ROUTINES
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='ROUTINES' and @Schema='INFORMATION_SCHEMA']
-    View
-    Schema:INFORMATION_SCHEMA
-
-        
-                                       Name:DOMAIN_CONSTRAINTS
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='DOMAIN_CONSTRAINTS' and @Schema='INFORMATION_SCHEMA']
-    View
-    Schema:INFORMATION_SCHEMA
-
-        
-                                                                                           Name:CONSTRAINT_COLUMN_USAGE
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='CONSTRAINT_COLUMN_USAGE' and @Schema='INFORMATION_SCHEMA']
-    View
-    Schema:INFORMATION_SCHEMA
-
-        
-                                                                                                                                                                           Name:COLUMN_DOMAIN_USAGE
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='COLUMN_DOMAIN_USAGE' and @Schema='INFORMATION_SCHEMA']
-    View
-    Schema:INFORMATION_SCHEMA
-
-        
-                       Name:VIEW_TABLE_USAGE
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='VIEW_TABLE_USAGE' and @Schema='INFORMATION_SCHEMA']
-    View
-    Schema:INFORMATION_SCHEMA
-
-        
-                   Name:PARAMETERS
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='PARAMETERS' and @Schema='INFORMATION_SCHEMA']
-    View
-    Schema:INFORMATION_SCHEMA
-
-        
-                                                       Name:REFERENTIAL_CONSTRAINTS
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='REFERENTIAL_CONSTRAINTS' and @Schema='INFORMATION_SCHEMA']
-    View
-    Schema:INFORMATION_SCHEMA
-
-        
-                                                   Name:SEQUENCES
-    Urn:Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/View[@Name='SEQUENCES' and @Schema='INFORMATION_SCHEMA']
-    View
-    Schema:INFORMATION_SCHEMA
-
-        
-                                                        
- 1
- Server[@Name='LAPTOP-CGJ3RLTN']/Database[@Name='ADADB']/Table[@Name='HIST_AsignacionAAFF' and @Schema='asig']
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
