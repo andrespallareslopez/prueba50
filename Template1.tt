@@ -54,8 +54,13 @@
     
 #>
 <#
-     GenerarMensajeDep();
+     //GenerarMensajeDep();
 
     //showDependencies();
     //showEnumTable();
+    //showEnumView();
+    //showEnumSP();
+    //showColumnsByTable();
+    //showColumnsPropertiesByTable();
+    showIndexesTable();
 #>

@@ -117,7 +117,184 @@ public List<string> getEnumTable(){
 	return lista;
 }
 
+public List<string> getEnumByType(string type){
+    List<string> lista= new List<string>();
+	string connectionString = getConnectionString();
 
+    SqlConnection sqlConnection = new SqlConnection(connectionString);
+	ServerConnection serverConnection = new ServerConnection(sqlConnection);
+		Server server = new Server(serverConnection);
+		var db = server.Databases[server.ConnectionContext.DatabaseName];
+
+		//var tables = server.Databases[server.ConnectionContext.DatabaseName].Tables;
+
+		string ServerName = Environment.MachineName;
+
+		var Elementos = db.EnumObjects();
+		var rows = Elementos.Select();
+	      foreach( DataRow fila in rows){
+              if (fila["Schema"].ToString()!= "sys" && 
+			      fila["Schema"].ToString()!= "" && 
+				  fila["Schema"].ToString()!= "MessageType" && 
+				  fila["Schema"].ToString()!= "DatabaseRole" &&
+				  fila["Schema"].ToString()!="INFORMATION_SCHEMA"){
+				  if (fila["DatabaseObjectTypes"].ToString()==type){
+					  lista.Add(fila["Name"].ToString());
+                  }
+              }
+          }
+    
+	return lista;
+}
+
+public List<string> getColumnsByTable(string nameTable){
+
+    List<string> lista= new List<string>();
+	string connectionString = getConnectionString();
+	
+    SqlConnection sqlConnection = new SqlConnection(connectionString);
+    ServerConnection serverConnection = new ServerConnection(sqlConnection);
+    Server server = new Server(serverConnection);
+    var db = server.Databases[server.ConnectionContext.DatabaseName];
+
+
+	var tables = server.Databases[server.ConnectionContext.DatabaseName].Tables;
+
+    Table table = null;
+    
+	foreach(Table tabla in tables){
+		if (tabla.Name == nameTable){
+			table=tabla;
+			break;
+        }
+    }
+
+
+	if (table!=null){
+	  foreach(Column columna in table.Columns){
+		lista.Add(columna.Name);
+       
+      }
+    }
+
+	return lista;
+}
+
+public class Columna {
+
+	public Columna(){}
+
+	public string Nombre {get;set;}
+	public string Tipo {get;set;}
+	public string Descripcion {get;set;}
+	public int Length {get;set;}
+
+}
+
+public List<Columna> getColumnsPropertiesByTable(string nameTable){
+	List<Columna> lista = new List<Columna>();
+
+	string connectionString = getConnectionString();
+	
+    SqlConnection sqlConnection = new SqlConnection(connectionString);
+    ServerConnection serverConnection = new ServerConnection(sqlConnection);
+    Server server = new Server(serverConnection);
+    var db = server.Databases[server.ConnectionContext.DatabaseName];
+
+
+	var tables = server.Databases[server.ConnectionContext.DatabaseName].Tables;
+
+    Table table = null;
+    
+	foreach(Table tabla in tables){
+		if (tabla.Name == nameTable){
+			table=tabla;
+			break;
+        }
+    }
+
+	
+	if (table!=null){
+	  foreach(Column columna in table.Columns){
+        Columna column = new Columna();
+		column.Nombre = columna.Name;
+		column.Tipo = columna.DataType.Name;
+		column.Descripcion = columna.DataType.ToString();
+		
+		lista.Add(column);       
+      }
+    }
+
+	return lista;
+}
+
+public Microsoft.SqlServer.Management.Smo.Table getTableObjectByNameTable(string nameTable){
+
+	List<Columna> lista = new List<Columna>();
+
+	string connectionString = getConnectionString();
+	
+    SqlConnection sqlConnection = new SqlConnection(connectionString);
+    ServerConnection serverConnection = new ServerConnection(sqlConnection);
+    Server server = new Server(serverConnection);
+    var db = server.Databases[server.ConnectionContext.DatabaseName];
+
+
+	var tables = server.Databases[server.ConnectionContext.DatabaseName].Tables;
+
+    Table table = null;
+    
+	foreach(Table tabla in tables){
+		if (tabla.Name == nameTable){
+			table=tabla;
+			break;
+        }
+    }
+
+    return table;
+}
+
+
+
+public List<Microsoft.SqlServer.Management.Smo.Column> getColumnsObjectByTable(Microsoft.SqlServer.Management.Smo.Table tempTable){
+	List<Microsoft.SqlServer.Management.Smo.Column> lista = new List<Microsoft.SqlServer.Management.Smo.Column>();
+
+    Table table = tempTable ;
+    
+
+	
+	if (table!=null){
+	  foreach(Column columna in table.Columns){
+       
+		lista.Add(columna);       
+      }
+    }
+
+	return lista;
+
+}
+
+
+public System.Data.DataTable getColumnIndexes(Column columna){
+
+	return columna.EnumIndexes();
+
+}
+
+public List<string> getColumnsIndex(System.Data.DataTable tempTable){
+    List<string> lista = new List<string>();
+    /*
+	foreach(System.Data.DataColumn columna in tempTable.Columns){
+		lista.Add(columna.ColumnName);
+    }
+	*/
+	var rows= tempTable.Select();
+	foreach( DataRow fila in rows){
+       lista.Add(fila["Urn"].ToString());         
+    }
+
+	return lista;
+}
 #>
 
 <#+  
@@ -139,3 +316,139 @@ void showEnumTable(){
 }
 #>
 
+
+
+<#+  
+void showEnumView(){
+	//StoredProcedure
+	List<string> lista = getEnumByType("View");
+
+#>
+
+   <#+ 
+     foreach(string el in lista){
+   #>
+
+    <#= el #>
+   <#+ } #>
+
+
+<#+ 
+}
+#>
+
+
+
+
+<#+  
+void showEnumSP(){
+	//StoredProcedure
+	List<string> lista = getEnumByType("StoredProcedure");
+
+#>
+
+   <#+ 
+     foreach(string el in lista){
+   #>
+
+    <#= el #>
+   <#+ } #>
+
+
+<#+ 
+}
+#>
+
+
+<#+  
+void showColumnsByTable(){
+	//StoredProcedure
+	List<string> lista = getColumnsByTable("SolCambio");
+
+#>
+
+   <#+ 
+     foreach(string el in lista){
+   #>
+
+    <#= el #>
+   <#+ } #>
+
+
+<#+ 
+}
+#>
+
+
+<#+  
+void showColumnsPropertiesByTable(){
+	
+	List<Columna> lista = getColumnsPropertiesByTable("SolCambio");
+
+#>
+
+   <#+ 
+     foreach(Columna el in lista){
+   #>
+
+    <#= el.Nombre #> - <#= el.Tipo #> - <#= el.Descripcion #>
+   <#+ } #>
+
+
+<#+ 
+}
+#>
+
+
+
+<#+  
+void showColumnsDataTable(){
+	
+	Microsoft.SqlServer.Management.Smo.Table tabla = getTableObjectByNameTable("SolCambio");
+	List<Microsoft.SqlServer.Management.Smo.Column> lista = getColumnsObjectByTable(tabla);
+#>
+<#+  
+	foreach(Column columna in lista){
+		System.Data.DataTable metaColumn =  getColumnIndexes(columna);
+		List<string> templista = getColumnsIndex(metaColumn);
+#>		  
+		   <#+ 
+		   foreach(string el in templista){
+		   #>
+
+			<#= el #>
+		
+	<#+ } #>
+<#+  
+    }
+#>
+<#+ 
+}
+#>
+
+
+
+<#+  
+void showIndexesTable(){
+	
+	Microsoft.SqlServer.Management.Smo.Table tabla = getTableObjectByNameTable("EstrategiaAACC");
+	List<Microsoft.SqlServer.Management.Smo.Column> lista = getColumnsObjectByTable(tabla);
+#>
+<#+  
+	foreach(Column columna in lista){
+		System.Data.DataTable metaColumn =  getColumnIndexes(columna);
+		List<string> templista = getColumnsIndex(metaColumn);
+#>		  
+		   <#+ 
+		   foreach(string el in templista){
+		   #>
+
+			<#= columna.Name #> - <#= el #>
+		
+	<#+ } #>
+<#+  
+    }
+#>
+<#+ 
+}
+#>

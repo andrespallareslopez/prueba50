@@ -287,6 +287,10 @@
   <ItemGroup>
     <None Include=".editorconfig" />
     <None Include="App.config" />
+    <None Include="Template1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Template1.txt</LastGenOutput>
+    </None>
     <None Include="XMLFile1.xsd">
       <SubType>Designer</SubType>
     </None>
@@ -324,10 +328,6 @@
       <DependentUpon>Template1.tt</DependentUpon>
     </Content>
     <Content Include="XMLFile1.xml" />
-    <None Include="Template1.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Template1.txt</LastGenOutput>
-    </None>
     <Content Include="TextTemplate1.txt">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
