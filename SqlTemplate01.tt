@@ -1,0 +1,58 @@
+﻿<#@ template  debug="false" hostSpecific="true"  #>
+
+<#@ assembly name="Microsoft.SqlServer.Management.Sdk.Sfc" #>
+
+<#@ import namespace="System" #>
+<#@ import namespace="System.IO" #>
+<#@ import namespace="System.Diagnostics" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Collections" #>
+<#@ import namespace="System.Collections.Generic" #> 
+<#@ import namespace="System.IO" #>
+<#@ import namespace="System.Data" #>
+<#@ import namespace="System.Data.SqlClient" #>
+<#@ import namespace="System.Configuration" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="Microsoft.SqlServer.Management.Smo" #>
+<#@ import namespace="Microsoft.SqlServer.Management.Common" #>
+<#@ include file="MultipleOutputHelper.ttinclude" #> 
+<#@ include file="Dependencias.t4" #>
+<#@ include file="util.t4" #>
+
+<#@ output extension=".sql" #>
+
+
+
+
+<# 
+   var manager = Manager.Create(Host, GenerationEnvironment);
+#>
+
+<# 
+   manager.Process(true,true);
+    
+    this.GenerationEnvironment.Remove(0,this.GenerationEnvironment.Length);
+#>
+
+<#    
+  
+ this.GenerationEnvironment.Remove(0,this.GenerationEnvironment.Length);
+
+ String outputPath = Path.GetDirectoryName(Host.TemplateFile);
+    String fileName = Path.Combine(outputPath, "SqlTemplate01.sql");
+   
+    File.Delete(fileName);     
+
+    
+#>
+<#
+     //GenerarMensajeDep();
+
+    //showDependencies();
+    //showEnumTable();
+    //showEnumView();
+    //showEnumSP();
+    //showColumnsByTable();
+    //showColumnsPropertiesByTable();
+    showIndexesTable();
+#>
