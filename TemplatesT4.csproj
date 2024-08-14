@@ -290,6 +290,8 @@
     <None Include="Template1.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Template1.txt</LastGenOutput>
+      <Parameters>&lt;%3fxml version="1.0" encoding="utf-16"%3f&gt;
+&lt;ArrayOfParameterStorage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /&gt;</Parameters>
     </None>
     <None Include="XMLFile1.xsd">
       <SubType>Designer</SubType>
@@ -325,6 +327,17 @@
     <None Include="util.t4">
       <LastGenOutput>util1.cs</LastGenOutput>
     </None>
+    <None Include="SqlTemplate01.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>SqlTemplate01.sql</LastGenOutput>
+      <Parameters>&lt;%3fxml version="1.0" encoding="utf-16"%3f&gt;
+&lt;ArrayOfParameterStorage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /&gt;</Parameters>
+    </None>
+    <Content Include="SqlTemplate01.sql">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SqlTemplate01.tt</DependentUpon>
+    </Content>
     <Content Include="Template1.txt">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

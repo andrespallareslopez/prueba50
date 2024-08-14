@@ -53,6 +53,6 @@
     //showEnumView();
     //showEnumSP();
     //showColumnsByTable();
-    //showColumnsPropertiesByTable();
-    showIndexesTable();
+    showColumnsPropertiesByTable();
+    //showIndexesTable();
 #>
